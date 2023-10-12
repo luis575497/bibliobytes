@@ -31,5 +31,5 @@ Categorías
    :date: %Y-%m-%d
    :format: {title} - {date}
    :list-style: none
-   :expand: Read more ...
+   :expand: Leer más ...
    :excerpts:

@@ -128,3 +128,8 @@ div.vp-sidebar li {
 div.socials a {
     padding: 5px 0 5px 0;
 }
+
+div.sidebar-primary-item h3{
+    margin: 1em auto;
+    max-width: 220px;
+}
