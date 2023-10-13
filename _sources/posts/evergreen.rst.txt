@@ -7,6 +7,16 @@
 **********
 Evergreen
 **********
+.. admonition:: Evergreen Software Logo
+    :class: sidebar tip
+
+    .. image:: ../_static/images/evergreen.jpg
+       :align: center
+       :height: 200
+       :width: 200
+
+    Imagen tomada del sitio web oficial
+
 
 Evergreen ILS (Integrated Library System) es un sistema integrado de gestión de bibliotecas que ha sido desarrollado específicamente para satisfacer las necesidades de bibliotecas y centros de información. Evergreen ILS es un software de código abierto, lo que significa que su código fuente es de acceso público y puede ser utilizado y modificado libremente por cualquier persona.
 
@@ -20,7 +30,7 @@ El propósito principal de Evergreen ILS es automatizar y facilitar la gestión 
    | **URL**: https://evergreen-ils.org/egdownloads/
  
 ======================
-Caracterísitcas
+✨ Caracterísitcas
 ======================
 
 Algunas características y funcionalidades clave de Evergreen ILS incluyen:
@@ -39,14 +49,14 @@ Algunas características y funcionalidades clave de Evergreen ILS incluyen:
    Si deseas probarlo puedes acceder a estos servidores proporcionados por la comunidad: https://wiki.evergreen-ils.org/doku.php?id=community_servers
 
 ======================
-Desvenjatas
+📉 Desvenjatas
 ======================
 
 #. **Publicaciones periódicas**: La desventaja de la falta de gestión de publicaciones periódicas en el sistema Evergreen ILS radica no incluye un módulo para organizar y pgestionar las revistas y periódicos. Dado que Evergreen ILS inicialmente se enfocó más en la gestión de libros y otros materiales de biblioteca.
 #. **Informes y estadísticas**: La posibilidad de extraer informes es un sistema increíblemente caótico que parece innecesariamente recargado y no es muy intuitivo para los bibliotecarios, por lo que se requiere de estudio y capacitación para utilizarlos de manera correcta.
 
 ======================
-Enlaces útiles
+🔗 Enlaces útiles
 ======================
 
 #. Aprenda más sobre Evergreen consultando la documentación oficial: https://docs.evergreen-ils.org/eg/docs/latest/index.html
@@ -54,7 +64,7 @@ Enlaces útiles
 
 
 ======================
-Notas
+📝 Notas
 ======================
 .. note:: 
    El módulo de reservas incorporado en el sistema es altamente eficaz para la gestión y reserva de espacios y equipos. Estas reservas se llevan a cabo para los usuarios registrados en el sistema y pueden ser realizadas tanto desde el perfil del usuario como desde el propio módulo de reservas.
