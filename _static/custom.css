@@ -120,7 +120,7 @@ div.socials a {
     padding: 5px 0 5px 0;
 }
 
-div.sidebar-primary-item h3{
+div.sidebar-primary-item h3 {
     margin: 1em auto;
     max-width: 220px;
     padding-left: 0;
@@ -129,5 +129,16 @@ div.sidebar-primary-item h3{
 div.sidebar-primary-item ul{
     margin: 1em auto;
     max-width: 220px;
+    padding-left: 0;
+}
+
+div.sidebar-primary-item h2{
+    margin: 1em auto;
+    max-width: 220px;
+    padding-left: 0;
+}
+
+body > nav > div > div.col-lg-9.navbar-header-items > div.navbar-header-items__end > div.navbar-item.navbar-persistent--container > button {
+    color: #a6a6a6;
 }
 

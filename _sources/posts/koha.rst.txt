@@ -17,7 +17,7 @@ Koha
        :height: 200
        :width: 200
       
-    *Imagen tomada del sitio web oficial*
+    *Koha es una palabra maorí que significa regalo o donación.*
 
 Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos relacionados con la gestión de una biblioteca.
 
