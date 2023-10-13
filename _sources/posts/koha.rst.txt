@@ -1,5 +1,5 @@
 .. post:: Oct 11, 2023
-   :tags: sgb, catalogación
+   :tags: software, open source, catalogación
    :category: Sistema de Gestión Bibliotecaria
    :author: Luis Enrique Lescano Borrego
    :language: es
