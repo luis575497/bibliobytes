@@ -60,4 +60,4 @@ Notas
    El módulo de reservas incorporado en el sistema es altamente eficaz para la gestión y reserva de espacios y equipos. Estas reservas se llevan a cabo para los usuarios registrados en el sistema y pueden ser realizadas tanto desde el perfil del usuario como desde el propio módulo de reservas.
 
 .. note:: 
-   Se puede implementar las normas de catalogación RDA (Resource, Description, Access) para realizar la descripción bibliográfica.
+   Las funciones de " Curbside Pickup" en Evergreen ofrece una interfaz diseñada para agilizar la recogida gratuita de materiales en la biblioteca. Esta funcionalidad brinda una interfaz exclusiva en el cliente para el personal de la biblioteca, permitiéndoles rastrear y gestionar las citas y la recolección de materiales en la acera durante las diferentes fases del proceso. Además, el personal tiene la capacidad de programar citas de recogida en nombre de los clientes.
