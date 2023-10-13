@@ -4,11 +4,12 @@
 }
 
 html[data-theme="light"] {
-    --pst-color-primary: #4F98CA;
-    --pst-color-link: #19456B;
+    --pst-color-primary: #334257;
 }
 
 html[data-theme="dark"] {
     --pst-color-primary: #FF7315;
     --pst-color-link: #FFE6C7;
+    --pst-color-background: #14181e;
+    --pst-color-on-background: #222832;
 }
