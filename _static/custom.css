@@ -1,12 +1,3 @@
-html[data-theme="light"] {
-    --pst-color-primary: #2c3038;
-    --pst-color-link: #0a7d91;
-}
-
-html[data-theme="dark"] {
-    --pst-color-primary: white;
-}
-
 /* Bio area */
 div.profile-pic {
     margin-top: 1em;
@@ -132,4 +123,11 @@ div.socials a {
 div.sidebar-primary-item h3{
     margin: 1em auto;
     max-width: 220px;
+    padding-left: 0;
 }
+
+div.sidebar-primary-item ul{
+    margin: 1em auto;
+    max-width: 220px;
+}
+

@@ -2,3 +2,13 @@
     margin: 1em auto;
     max-width: 220px;
 }
+
+html[data-theme="light"] {
+    --pst-color-primary: #4F98CA;
+    --pst-color-link: #19456B;
+}
+
+html[data-theme="dark"] {
+    --pst-color-primary: #FF7315;
+    --pst-color-link: #FFE6C7;
+}
