@@ -3,6 +3,9 @@
    :category: Sistema de Gestión Bibliotecaria
    :author: Luis Enrique Lescano Borrego
    :language: es
+   :exclude:
+
+   Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos ...
 
 **********
 Koha
@@ -15,7 +18,7 @@ Koha
        :height: 200
        :width: 200
       
-     Imagen tomada del sitio web oficial
+    *Imagen tomada del sitio web oficial*
 
 Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos relacionados con la gestión de una biblioteca.
 
