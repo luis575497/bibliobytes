@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <id>https://luis575497.github.io/</id>
+  <title>Blog</title>
+  <updated>2023-10-17T16:39:00.944823+00:00</updated>
+  <link href="https://luis575497.github.io/"/>
+  <link href="https://luis575497.github.io/blog/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
+  <entry>
+    <id>https://luis575497.github.io/posts/koha/</id>
+    <title>Koha</title>
+    <updated>2023-10-11T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos …&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/koha/" rel="alternate"/>
+    <summary>Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos …</summary>
+    <category term="catalogación" label="catalogación"/>
+    <category term="opensource" label="open source"/>
+    <category term="software" label="software"/>
+    <published>2023-10-11T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/evergreen/</id>
+    <title>Evergreen</title>
+    <updated>2023-10-13T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Evergreen ILS (Integrated Library System) es un sistema integrado de gestión de bibliotecas que ha sido desarrollado específicamente para satisfacer las necesidades de bibliotecas y centros de información…&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/evergreen/" rel="alternate"/>
+    <summary>Evergreen ILS (Integrated Library System) es un sistema integrado de gestión de bibliotecas que ha sido desarrollado específicamente para satisfacer las necesidades de bibliotecas y centros de información…</summary>
+    <category term="catalogación" label="catalogación"/>
+    <category term="opensource" label="open source"/>
+    <category term="software" label="software"/>
+    <published>2023-10-13T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/omekas/</id>
+    <title>Omeka-S</title>
+    <updated>2023-10-13T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Omeka S (Semantic) es un sistema de gestión de contenidos de software libre diseñado para satisfacer las necesidades de diversas instituciones culturales, tales como bibliotecas, archivos, museos y universidades, permitiéndoles desarrollar una amplia gama de proyectos digitales…&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/omekas/" rel="alternate"/>
+    <summary>Omeka S (Semantic) es un sistema de gestión de contenidos de software libre diseñado para satisfacer las necesidades de diversas instituciones culturales, tales como bibliotecas, archivos, museos y universidades, permitiéndoles desarrollar una amplia gama de proyectos digitales…</summary>
+    <category term="opensource" label="open source"/>
+    <category term="repositorio" label="repositorio"/>
+    <category term="software" label="software"/>
+    <published>2023-10-13T00:00:00-05:00</published>
+  </entry>
+</feed>
