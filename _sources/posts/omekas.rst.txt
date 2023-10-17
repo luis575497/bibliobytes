@@ -26,7 +26,7 @@ Este proyecto es impulsado por la Corporation for Digital Scholarship del Roy Ro
 .. admonition:: Datos técnicos  
    :class: important
 
-   | **Año de creación**: 2006. 
+   | **Año de creación**: 2012. 
    | **OAI**: Soporta el protocolo OAI-PMH
    | **URL**: https://omeka.org/s/download/
  
