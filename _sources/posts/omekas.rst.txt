@@ -10,7 +10,7 @@
 Omeka-S
 **********
 
-.. admonition:: Evergreen Software Logo
+.. admonition:: Omeka-S Software Logo
     :class: sidebar tip
 
     .. image:: ../_static/images/omekas.jpg
@@ -51,7 +51,7 @@ Las características y funcionalidades clave de Omeka S incluyen:
    :class: tip
 
    Si deseas probarlo puedes acceder a este servidor de prueba proporcinado por Omeka: http://dev.omeka.org/omeka-s-sandbox/login  
-   
+
    - usuario: omekasdemo1@example.com  
    - password: omekasdemo1  
 
