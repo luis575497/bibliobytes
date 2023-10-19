@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-10-17T16:39:00.956832+00:00</updated>
+  <updated>2023-10-19T20:22:29.256667+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/social.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -43,12 +43,27 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Omeka-S #repositorio #software #opensource</content>
+    <content type="html">Omeka-S #software #opensource #repositorio</content>
     <link href="https://luis575497.github.io/posts/omekas/" rel="alternate"/>
     <summary>Omeka S (Semantic) es un sistema de gestión de contenidos de software libre diseñado para satisfacer las necesidades de diversas instituciones culturales, tales como bibliotecas, archivos, museos y universidades, permitiéndoles desarrollar una amplia gama de proyectos digitales…</summary>
     <category term="opensource" label="open source"/>
     <category term="repositorio" label="repositorio"/>
     <category term="software" label="software"/>
     <published>2023-10-13T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/librebooking/</id>
+    <title>LibreBooking</title>
+    <updated>2023-10-18T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">LibreBooking #software #opensource #reservas</content>
+    <link href="https://luis575497.github.io/posts/librebooking/" rel="alternate"/>
+    <summary>LibreBooking es un software de código abierto (open source) que se utiliza para gestionar y reservar recursos compartidos en entornos empresariales y organizacionales.</summary>
+    <category term="opensource" label="open source"/>
+    <category term="reservas" label="reservas"/>
+    <category term="software" label="software"/>
+    <published>2023-10-18T00:00:00-05:00</published>
   </entry>
 </feed>
