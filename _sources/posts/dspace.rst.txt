@@ -4,7 +4,7 @@
    :author: Luis Enrique Lescano Borrego
    :exclude:
 
-   
+   DSpace es un sistema de gestión de repositorios de código abierto diseñado para ayudar a las instituciones, como universidades y bibliotecas, a crear, mantener y gestionar repositorios digitales de contenido académico, científico, cultural y otros tipos de información. DSpace proporciona una plataforma para almacenar, organizar, preservar y proporcionar ...
 
 **********
 DSpace

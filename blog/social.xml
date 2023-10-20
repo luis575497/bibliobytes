@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-10-20T17:46:42.378472+00:00</updated>
+  <updated>2023-10-20T17:49:15.049508+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/social.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -13,7 +13,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Koha #catalogación #opensource #software</content>
+    <content type="html">Koha #opensource #software #catalogación</content>
     <link href="https://luis575497.github.io/posts/koha/" rel="alternate"/>
     <summary>Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos …</summary>
     <category term="catalogación" label="catalogación"/>
@@ -28,7 +28,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Evergreen #catalogación #opensource #software</content>
+    <content type="html">Evergreen #opensource #software #catalogación</content>
     <link href="https://luis575497.github.io/posts/evergreen/" rel="alternate"/>
     <summary>Evergreen ILS (Integrated Library System) es un sistema integrado de gestión de bibliotecas que ha sido desarrollado específicamente para satisfacer las necesidades de bibliotecas y centros de información…</summary>
     <category term="catalogación" label="catalogación"/>
@@ -43,7 +43,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Omeka-S #opensource #repositorio #software</content>
+    <content type="html">Omeka-S #opensource #software #repositorio</content>
     <link href="https://luis575497.github.io/posts/omekas/" rel="alternate"/>
     <summary>Omeka S (Semantic) es un sistema de gestión de contenidos de software libre diseñado para satisfacer las necesidades de diversas instituciones culturales, tales como bibliotecas, archivos, museos y universidades, permitiéndoles desarrollar una amplia gama de proyectos digitales…</summary>
     <category term="opensource" label="open source"/>
@@ -58,7 +58,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">LibreBooking #opensource #reservas #software</content>
+    <content type="html">LibreBooking #opensource #software #reservas</content>
     <link href="https://luis575497.github.io/posts/librebooking/" rel="alternate"/>
     <summary>LibreBooking es un software de código abierto (open source) que se utiliza para gestionar y reservar recursos compartidos en entornos empresariales y organizacionales.</summary>
     <category term="opensource" label="open source"/>
@@ -73,9 +73,9 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">DSpace #opensource #repositorio #software</content>
+    <content type="html">DSpace #opensource #software #repositorio</content>
     <link href="https://luis575497.github.io/posts/dspace/" rel="alternate"/>
-    <summary>software open source repositorio</summary>
+    <summary>DSpace es un sistema de gestión de repositorios de código abierto diseñado para ayudar a las instituciones, como universidades y bibliotecas, a crear, mantener y gestionar repositorios digitales de contenido académico, científico, cultural y otros tipos de información. DSpace proporciona una plataforma para almacenar, organizar, preservar y proporcionar …</summary>
     <category term="opensource" label="open source"/>
     <category term="repositorio" label="repositorio"/>
     <category term="software" label="software"/>
