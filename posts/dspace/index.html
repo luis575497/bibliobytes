@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Omeka-S &#8212; documentación de BiblioBytes - 0.0.1</title>
+    <title>DSpace &#8212; documentación de BiblioBytes - 0.0.1</title>
   
   
   
@@ -56,7 +56,7 @@
                 gtag('js', new Date());
                 gtag('config', 'G-X0SW72PREQ');
             </script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'posts/omekas';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'posts/dspace';</script>
     <link rel="index" title="Índice" href="../../genindex/" />
     <link rel="search" title="Búsqueda" href="../../search/" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -360,7 +360,7 @@ document.write(`
         <div class="sidebar-primary-item">  
 <h2>
    <i class="fa fa-calendar"></i>
-  13 octubre 2023 
+  20 octubre 2023 
 </h2>
 
 <ul>
@@ -408,7 +408,7 @@ document.write(`
   <i class="fa-fw fa fa-comments"></i>
   <a
     href="#disqus_thread"
-    data-disqus-identifier="/posts/omekas/"
+    data-disqus-identifier="/posts/dspace/"
   >
     </a
   >
@@ -450,7 +450,7 @@ document.write(`
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page">Omeka-S</li>
+    <li class="breadcrumb-item active" aria-current="page">DSpace</li>
   </ul>
 </nav>
 </div>
@@ -466,87 +466,73 @@ document.write(`
                 
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
-                   <section id="omeka-s">
-<h1>Omeka-S<a class="headerlink" href="#omeka-s" title="Enlace permanente a este encabezado">#</a></h1>
+                   <section id="dspace">
+<h1>DSpace<a class="headerlink" href="#dspace" title="Enlace permanente a este encabezado">#</a></h1>
 <p><span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">software</span> <span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">open source</span> <span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">repositorio</span></p>
 <div class="sidebar tip admonition">
-<p class="admonition-title">Omeka-S Software Logo</p>
-<a class="reference internal image-reference" href="../../_images/omekas.jpg"><img alt="../../_images/omekas.jpg" class="align-center" src="../../_images/omekas.jpg" style="width: 200px; height: 200px;" /></a>
+<p class="admonition-title">Dspace Software Logo</p>
+<a class="reference internal image-reference" href="../../_images/dspace.jpg"><img alt="../../_images/dspace.jpg" class="align-center" src="../../_images/dspace.jpg" style="width: 200px; height: 200px;" /></a>
 <p><em>Imagen tomada del sitio web oficial</em></p>
 </div>
-<p>Omeka S (Semantic) es un sistema de gestión de contenidos de software libre diseñado para satisfacer las necesidades de diversas instituciones culturales, tales como bibliotecas, archivos, museos y universidades, permitiéndoles desarrollar una amplia gama de proyectos digitales.
-Este proyecto es impulsado por la Corporation for Digital Scholarship del Roy Rosenzweig Center de la George Mason University, reconocida por su trayectoria en proyectos destacados en el ámbito digital, como Omeka Classic o el reconocido sistema de gestión de referencias bibliográficas Zotero, entre otros. Con Omeka S, se busca ofrecer una plataforma versátil y poderosa que propicie la creación, organización y presentación efectiva de recursos digitales de manera accesible y estructurada.</p>
+<p>DSpace es un sistema de gestión de repositorios de código abierto diseñado para ayudar a las instituciones, como universidades y bibliotecas, a crear, mantener y gestionar repositorios digitales de contenido académico, científico, cultural y otros tipos de información. DSpace proporciona una plataforma para almacenar, organizar, preservar y proporcionar acceso a una variedad de materiales digitales, como tesis, artículos de investigación, imágenes, documentos históricos, videos y otros recursos digitales.</p>
+<p>En la actualidad, el software ha avanzado a la versión 7.x, lo que representó un significativo cambio en la arquitectura. En este proceso, se produjo una separación entre el backend y el frontend, además de la disociación del servidor de búsquedas SOLR del backend. Como base de datos, ahora se emplea únicamente PostgreSQL.</p>
 <div class="important admonition">
 <p class="admonition-title">Datos técnicos</p>
 <div class="line-block">
-<div class="line"><strong>Año de creación</strong>: 2012.</div>
+<div class="line"><strong>Año de creación</strong>: 2002.</div>
 <div class="line"><strong>OAI</strong>: Soporta el protocolo OAI-PMH</div>
-<div class="line"><strong>URL</strong>: <a class="reference external" href="https://omeka.org/s/download/">https://omeka.org/s/download/</a></div>
+<div class="line"><strong>ORCID</strong>: Se integra con el API de ORCID para la recolección de datos de autores.</div>
+<div class="line"><strong>URL</strong>: <a class="reference external" href="https://dspace.lyrasis.org/download/">https://dspace.lyrasis.org/download/</a></div>
 </div>
 </div>
 <section id="caracterisitcas">
 <h2>✨ Caracterísitcas<a class="headerlink" href="#caracterisitcas" title="Enlace permanente a este encabezado">#</a></h2>
-<p>Las características y funcionalidades clave de Omeka S incluyen:</p>
+<p>Las principales funciones y características de DSpace desde su versión 7.x incluyen:</p>
 <ol class="arabic simple">
-<li><p><strong>Relaciones</strong>: Permite crear relaciones entre elementos, conjuntos de elementos y medios para organizar y estructurar recursos en el repositorio.</p></li>
-<li><p><strong>Recursos compartidos</strong>: Facilita compartir eficientemente recursos entre diferentes sitios y usuarios, fomentando la colaboración e intercambio de información.</p></li>
-<li><p><strong>Metadatos</strong>: Ofrece la elección entre tres vocabularios de metadatos y la posibilidad de agregar vocabularios adicionales según las necesidades del proyecto.</p></li>
-<li><p><strong>Plantillas personalizadas</strong>: Permite crear plantillas de contenido personalizadas, extrayendo de varios vocabularios de metadatos y compartiéndolas en la web.</p></li>
-<li><p><strong>Personalización</strong>: Proporciona temas listos para dispositivos móviles para personalizar la apariencia de cada sitio, asegurando una experiencia óptima en diferentes dispositivos.</p></li>
-<li><p><strong>Sitios</strong>:Facilita la creación de sitios para publicar y contextualizar elementos, exhibiciones o historias digitales, brindando flexibilidad en la presentación de contenidos.</p></li>
-<li><p><strong>Configuración de sitios</strong>:Permite la gestión de configuraciones específicas para adaptarse a las necesidades de cada sitio, con control detallado sobre la apariencia y comportamiento.</p></li>
-<li><p><strong>Módulos</strong>: Facilita la extensión del sitio mediante módulos que amplían las funcionalidades y posibilidades de la plataforma para adaptarse a requisitos específicos.</p></li>
-<li><p><strong>Actualización</strong>: Facilita la actualización de múltiples sitios desde una sola instalación, garantizando una gestión eficiente y actualizada del contenido y funcionalidades.</p></li>
-<li><p><strong>Interoperatividad</strong>: Facilita la conexión con repositorios externos como Fedora y DSpace para la actualización periódica del contenido desde estos repositorios.</p></li>
+<li><p><strong>Formulario de envío simplificado</strong>: En esta versión se ha simplificado el proceso de carga de contenido en el repositorio. Con un formulario de envío simplificado, los usuarios pueden cargar sus materiales de una manera más intuitiva y fácil, lo que mejora la experiencia de los contribuyentes y fomenta la contribución de contenido al repositorio.</p></li>
+<li><p><strong>Entidades configurables</strong>: En la versión 7.x de DSpace, se ha incorporado la notable función de personalización de entidades. Esta capacidad permite a las instituciones adaptar el sistema a sus necesidades específicas. En otras palabras, las instituciones ahora pueden definir y ajustar los tipos de elementos que desean gestionar, como individuos, publicaciones, proyectos y departamentos, y establecer relaciones significativas entre ellos. Este enfoque de personalización ampliada se alinea con los principios de la web semántica, permitiendo una representación más rica y contextual de la información en el repositorio.</p></li>
+<li><p><strong>Gestión de flujos de trabajo</strong>: DSpace 7.x ofrece una gestión de flujos de trabajo mejorada, lo que significa que las instituciones pueden diseñar, personalizar y automatizar los procesos de revisión y aprobación para el contenido que se envía al repositorio. Esto es especialmente útil para garantizar la calidad y la coherencia de los materiales antes de su publicación.</p></li>
+<li><p><strong>Tareas de curación</strong>: Esta característica se refiere a la capacidad de DSpace para ayudar en la curación y preservación de los contenidos digitales. Las tareas de curación incluyen la combrobación de integridad, comprobación de metadatos requeridos, comprobación de formatos de archivo y otras actividades destinadas a mantener la integridad y utilidad del contenido a lo largo del tiempo.</p></li>
+<li><p><strong>Control de versiones</strong>: DSpace 7.x permite un control de versiones para los documentos almacenados en el repositorio. Esto es útil para llevar un registro de las actualizaciones y cambios en los documentos a lo largo del tiempo, lo que es importante en la gestión de contenido académico y científico.</p></li>
+<li><p><strong>Embargo</strong>: La característica de embargo permite a los administradores del repositorio restringir el acceso a ciertos contenidos durante un período específico. Esto es útil para cumplir con políticas editoriales, acuerdos de publicación y requisitos legales antes de que el contenido se haga completamente público. Después del período de embargo, el contenido se vuelve accesible al público.</p></li>
 </ol>
 <div class="tip admonition">
 <p class="admonition-title">Prueba Omeka S</p>
-<p>Si deseas probarlo puedes acceder a este servidor de prueba proporcinado por Omeka: <a class="reference external" href="http://dev.omeka.org/omeka-s-sandbox/login">http://dev.omeka.org/omeka-s-sandbox/login</a></p>
+<p>Si deseas probarlo puedes acceder a este servidor de prueba proporcinado por Dspace:</p>
 <ul class="simple">
-<li><p>usuario: <a class="reference external" href="mailto:omekasdemo1&#37;&#52;&#48;example&#46;com">omekasdemo1<span>&#64;</span>example<span>&#46;</span>com</a></p></li>
-<li><p>password: omekasdemo1</p></li>
+<li><p><strong>Versión 7.x</strong>: <a class="reference external" href="https://demo.dspace.org/home">https://demo.dspace.org/home</a></p></li>
+<li><p><strong>Versión 6.x</strong>: <a class="reference external" href="https://demo6.dspace.org/">https://demo6.dspace.org/</a></p></li>
 </ul>
 </div>
 </section>
 <section id="desvenjatas">
 <h2>📉 Desvenjatas<a class="headerlink" href="#desvenjatas" title="Enlace permanente a este encabezado">#</a></h2>
 <ol class="arabic simple">
-<li><p><strong>Módulos</strong>: Al tener numerosos módulos, la instalación de estos puede volverse complicada, ya que en algunos casos es necesario descargar y compilar sus dependencias. Si no se realiza este proceso correctamente, puede ocasionar un error 503 en el servidor.</p></li>
-<li><p><strong>Personalización limitada</strong>: Aunque Omeka S ofrece opciones de personalización, los usuarios menos técnicos pueden encontrar limitaciones en la personalización avanzada de la apariencia y funcionalidades sin conocimientos de programación, por lo que para poder personalizar un tema son necesarios conocimientos de SASS, CSS, HTML y PHP</p></li>
+<li><p><strong>Configuración</strong>:  La configuración de módulos y formularios de envío requiere la edición de archivos en el servidor, lo que implica la necesidad de acceso directo al servidor y conocimientos avanzados del sistema para llevar a cabo esta tarea.</p></li>
+<li><p><strong>URL largas</strong>: En la versión 7.x, las URL creadas para los elementos, colecciones y comunidades se basan en UUID, lo que resulta en direcciones web considerablemente largas y menos legibles en comparación con los handles utilizados en versiones anteriores.</p></li>
+<li><p><strong>Búsquedas lentas</strong>: En la versión 7.x, se ha observado una disminución en la velocidad de las búsquedas en la plataforma. Por lo tanto, se recomienda contar con un servidor para el frontend que cumpla con las siguientes especificaciones: 8 núcleos de CPU y 32 GB de RAM. Además, es aconsejable configurar Node.js para admitir el procesamiento en múltiples hilos (multi-threading).</p></li>
 </ol>
 <div class="danger admonition">
-<p class="admonition-title">Solventar error 503</p>
-<p>Si se encuentra con un error 503 al instalar un módulo, simplemente debe eliminar la carpeta correspondiente al módulo dentro de la carpeta modules en el directorio de Omeka y eliminar su entrada en la sección de módulos de la base de datos.</p>
+<p class="admonition-title">Solventar error 505</p>
+<p>En la versión 7.x, cuando se encuentra un error 505, en la mayoría de los casos, esto se debe a problemas de comunicación entre el backend y el frontend. Para abordar esta situación, es fundamental revisar la configuración del archivo del frontend y asegurarse de que el archivo dspace/config/dspace.cfg contenga las URL del servidor e interfaz de usuario correctamente definidas.</p>
 </div>
 </section>
 <section id="enlaces-utiles">
 <h2>🔗 Enlaces útiles<a class="headerlink" href="#enlaces-utiles" title="Enlace permanente a este encabezado">#</a></h2>
-<p>git
-#. Listado de módulos actualizados de Omeka S: <a class="reference external" href="https://daniel-km.github.io/UpgradeToOmekaS/omeka_s_modules.html">https://daniel-km.github.io/UpgradeToOmekaS/omeka_s_modules.html</a>
-#. Listado de temas para Omeka S: <a class="reference external" href="https://daniel-km.github.io/UpgradeToOmekaS/omeka_s_themes.html">https://daniel-km.github.io/UpgradeToOmekaS/omeka_s_themes.html</a></p>
+<ol class="arabic simple">
+<li><p>Documentación oficial: <a class="reference external" href="https://wiki.lyrasis.org/display/DSDOC7x">https://wiki.lyrasis.org/display/DSDOC7x</a></p></li>
+<li><p>Instalación de Dspace 7.x: <a class="reference external" href="https://subratiitk.wordpress.com/install-dspace-7-2-on-ubuntu-22-04-lts/">https://subratiitk.wordpress.com/install-dspace-7-2-on-ubuntu-22-04-lts/</a></p></li>
+</ol>
 </section>
 <section id="notas">
 <h2>📝 Notas<a class="headerlink" href="#notas" title="Enlace permanente a este encabezado">#</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
-<p>Las capacidades de Omeka S se pueden aumentar con el uso de módulos, se recomienda usar los módulos oficiales y los creados por  <a class="gitlab reference external" href="https://gitlab.com/Daniel-KM">Daniel-KM</a>, pues son muy estables y no tienen conflictos.</p>
+<p>Es posible llevar a cabo integraciones con la API de ORCID para lograr diversas funcionalidades. Entre ellas se incluye la autenticación de usuarios, la recolección de datos del perfil del autor de ORCID y, si se cuenta con una membresía, la actualización de información biográfica y publicaciones desde DSpace.</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
-<p>Recomiendo los siguientes módulos para transformar Omeka S en una biblioteca Digital:</p>
-<ol class="arabic simple">
-<li><p><a class="github reference external" href="https://github.com/omeka/omeka-s-enduser/edit/master/docs/modules/customvocab.md">omeka/omeka-s-enduser</a></p></li>
-<li><p><a class="gitlab reference external" href="https://gitlab.com/Daniel-KM/Omeka-S-module-Guest">Daniel-KM/Omeka-S-module-Guest</a></p></li>
-<li><p><a class="gitlab reference external" href="https://gitlab.com/Daniel-KM/Omeka-S-module-IiifServer">Daniel-KM/Omeka-S-module-IiifServer</a></p></li>
-<li><p><a class="github reference external" href="https://github.com/biblibre/omeka-s-module-Ldap">biblibre/omeka-s-module-Ldap</a></p></li>
-<li><p><a class="gitlab reference external" href="https://gitlab.com/Daniel-KM/Omeka-S-module-Mirador">Daniel-KM/Omeka-S-module-Mirador</a></p></li>
-<li><p><a class="gitlab reference external" href="https://gitlab.com/Daniel-KM/Omeka-S-module-OaiPmhRepository">Daniel-KM/Omeka-S-module-OaiPmhRepository</a></p></li>
-<li><p><a class="github reference external" href="https://github.com/ManOnDaMoon/omeka-s-module-RestrictedSites">ManOnDaMoon/omeka-s-module-RestrictedSites</a></p></li>
-<li><p><a class="gitlab reference external" href="https://gitlab.com/Daniel-KM/Omeka-S-module-SearchHistory">Daniel-KM/Omeka-S-module-SearchHistory</a></p></li>
-<li><p><a class="gitlab reference external" href="https://gitlab.com/Daniel-KM/Omeka-s-module-Selection">Daniel-KM/Omeka-s-module-Selection</a></p></li>
-<li><p><a class="gitlab reference external" href="https://gitlab.com/Daniel-KM/Omeka-S-module-UniversalViewer">Daniel-KM/Omeka-S-module-UniversalViewer</a></p></li>
-<li><p><a class="gitlab reference external" href="https://gitlab.com/Daniel-KM/Omeka-S-module-AdvancedSearchPlus">Daniel-KM/Omeka-S-module-AdvancedSearchPlus</a></p></li>
-</ol>
+<p>Se permite la utilización de vocabularios controlados para los campos en el formulario de envío en DSpace, lo que habilita la implementación de taxonomías para una organización más efectiva del contenido. Para llevar a cabo esta tarea, es posible emplear software especializado como <a class="reference external" href="https://vocabularyserver.com/web/">TemaTres</a>. Los vocabularios controlados y taxonomías resultan particularmente útiles para estructurar y categorizar los materiales en el repositorio, lo que a su vez mejora la búsqueda, la navegación y la recuperación de información para los usuarios.</p>
 </div>
 </section>
 </section>
@@ -557,20 +543,13 @@ Este proyecto es impulsado por la Corporation for Digital Scholarship del Roy Ro
 <div class="section">
   <span style="float: left">
      
-    <a href="../evergreen/">
-      <i class="fa fa-arrow-circle-left"></i> Evergreen
+    <a href="../librebooking/">
+      <i class="fa fa-arrow-circle-left"></i> LibreBooking
     </a>
     
   </span>
   <span>&nbsp;</span>
   <span style="float: right">
-     
-    <a href="../librebooking/">
-      LibreBooking <i
-        class="fa fa-arrow-circle-right"
-      ></i
-      >
-    </a>
     
   </span>
 </div>
@@ -580,9 +559,9 @@ Este proyecto es impulsado por la Corporation for Digital Scholarship del Roy Ro
     <div id="disqus_thread"></div>
     <script type="text/javascript">
       var disqus_shortname = "bibliobytes";
-      var disqus_identifier = "/posts/omekas/";
-      var disqus_title = "Omeka-S";
-      var disqus_url = "https://luis575497.github.io/posts/omekas";
+      var disqus_identifier = "/posts/dspace/";
+      var disqus_title = "DSpace";
+      var disqus_url = "https://luis575497.github.io/posts/dspace";
 
       (function () {
         var dsq = document.createElement("script");
@@ -645,7 +624,7 @@ Este proyecto es impulsado por la Corporation for Digital Scholarship del Roy Ro
 
   <div class="sidebar-secondary-item">
   <div class="tocsection sourcelink">
-    <a href="../../_sources/posts/omekas.rst.txt">
+    <a href="../../_sources/posts/dspace.rst.txt">
       <i class="fa-solid fa-file-lines"></i> Mostrar el código
     </a>
   </div>

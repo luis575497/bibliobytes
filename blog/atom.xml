@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-10-20T16:17:30.436656+00:00</updated>
+  <updated>2023-10-20T17:46:42.356944+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -77,5 +77,23 @@
     <category term="reservas" label="reservas"/>
     <category term="software" label="software"/>
     <published>2023-10-18T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/dspace/</id>
+    <title>DSpace</title>
+    <updated>2023-10-20T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;&lt;span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info"&gt;software&lt;/span&gt; &lt;span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info"&gt;open source&lt;/span&gt; &lt;span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info"&gt;repositorio&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/dspace/" rel="alternate"/>
+    <summary>software open source repositorio</summary>
+    <category term="opensource" label="open source"/>
+    <category term="repositorio" label="repositorio"/>
+    <category term="software" label="software"/>
+    <published>2023-10-20T00:00:00-05:00</published>
   </entry>
 </feed>
