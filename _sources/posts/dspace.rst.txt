@@ -47,7 +47,7 @@ Las principales funciones y características de DSpace desde su versión 7.x inc
 #. **Control de versiones**: DSpace 7.x permite un control de versiones para los documentos almacenados en el repositorio. Esto es útil para llevar un registro de las actualizaciones y cambios en los documentos a lo largo del tiempo, lo que es importante en la gestión de contenido académico y científico.
 #. **Embargo**: La característica de embargo permite a los administradores del repositorio restringir el acceso a ciertos contenidos durante un período específico. Esto es útil para cumplir con políticas editoriales, acuerdos de publicación y requisitos legales antes de que el contenido se haga completamente público. Después del período de embargo, el contenido se vuelve accesible al público.
 
-.. admonition:: Prueba Omeka S  
+.. admonition:: Prueba DSpace 
    :class: tip
 
    Si deseas probarlo puedes acceder a este servidor de prueba proporcinado por Dspace:
