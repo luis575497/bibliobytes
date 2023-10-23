@@ -39,6 +39,7 @@ Categorías
 
    cursos
    blog
+   sobre-mi
 
 ===========================
 Últimas Publicaciones
