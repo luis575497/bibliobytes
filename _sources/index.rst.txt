@@ -32,6 +32,7 @@ Categorías
    :caption: Contenidos:
    :hidden:
 
+   cursos
    blog
 
 ===========================
