@@ -22,6 +22,7 @@ es mi rincón digital, donde exploramos juntos cómo la tecnología puede revolu
 Categorías
 ==============================
 .. grid:: auto
+   :gutter: 2
 
    .. grid-item-card:: 📊 Sistema de Gestión Bibliotecaria
       :link: sgb

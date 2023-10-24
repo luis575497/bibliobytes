@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-10-24T13:37:57.828223+00:00</updated>
+  <updated>2023-10-24T21:30:13.341976+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/social.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -13,7 +13,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Koha #opensource #software #catalogación</content>
+    <content type="html">Koha #opensource #catalogación #software</content>
     <link href="https://luis575497.github.io/posts/koha/" rel="alternate"/>
     <summary>Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos …</summary>
     <category term="catalogación" label="catalogación"/>
@@ -28,7 +28,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Evergreen #opensource #software #catalogación</content>
+    <content type="html">Evergreen #opensource #catalogación #software</content>
     <link href="https://luis575497.github.io/posts/evergreen/" rel="alternate"/>
     <summary>Evergreen ILS (Integrated Library System) es un sistema integrado de gestión de bibliotecas que ha sido desarrollado específicamente para satisfacer las necesidades de bibliotecas y centros de información…</summary>
     <category term="catalogación" label="catalogación"/>
@@ -80,5 +80,20 @@
     <category term="repositorio" label="repositorio"/>
     <category term="software" label="software"/>
     <published>2023-10-20T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/pmb/</id>
+    <title>PMB</title>
+    <updated>2023-10-24T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">PMB #opensource #catalogación #software</content>
+    <link href="https://luis575497.github.io/posts/pmb/" rel="alternate"/>
+    <summary>PMB, abreviatura de PhpMyBibli, es un sistema de gestión de bibliotecas (ILS, por sus siglas en inglés) que se utiliza para administrar y organizar bibliotecas y sus recursos de manera eficiente. Los sistemas ILS, como PMB, son herramientas esenciales para bibliotecas de todo tipo …</summary>
+    <category term="catalogación" label="catalogación"/>
+    <category term="opensource" label="open source"/>
+    <category term="software" label="software"/>
+    <published>2023-10-24T00:00:00-05:00</published>
   </entry>
 </feed>
