@@ -8,10 +8,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-<meta content="Evergreen ILS - Sistema de Gestión de Bibliotecas de Código Abierto | Catálogo en Línea y Préstamo de Materiales" name="description" />
-<meta content="Evergreen ILS, gestión de bibliotecas, código abierto, catálogo en línea, préstamo de materiales, software bibliotecario, biblioteca open source" name="keywords" />
+<meta content="Descubre los pasos clave para llevar a cabo la migración o actualización a DSpace 7, un proceso que requiere una cuidadosa planificación y ejecución. Asegúrate de preparar tu servidor, hacer una copia de seguridad de la base de datos, migrar el backend de DSpace 7 y más. Además, conoce los requisitos y la documentación útil para una actualización exitosa." name="description" />
+<meta content="DSpace 7, migración a DSpace 7, actualización de repositorio, preparación para DSpace 7, fase de migración, requisitos del repositorio, copia de seguridad, indexación de contenidos, actualización de software, documentación DSpace, actualización exitosa, migración de repositorios" name="keywords" />
 
-    <title>Evergreen &#8212; documentación de BiblioBytes - 0.0.1</title>
+    <title>Actualización a Dspace 7 &#8212; documentación de BiblioBytes - 0.0.1</title>
   
   
   
@@ -59,8 +59,8 @@
                 gtag('js', new Date());
                 gtag('config', 'G-X0SW72PREQ');
             </script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'posts/evergreen';</script>
-    <link rel="canonical" href="https://luis575497.github.io/posts/evergreen.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'posts/dspace7-migrations';</script>
+    <link rel="canonical" href="https://luis575497.github.io/posts/dspace7-migrations.html" />
     <link rel="index" title="Índice" href="../../genindex/" />
     <link rel="search" title="Búsqueda" href="../../search/" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -425,7 +425,7 @@ document.write(`
         <div class="sidebar-primary-item">  
 <h2>
    <i class="fa fa-calendar"></i>
-  13 octubre 2023 
+  25 octubre 2023 
 </h2>
 
 <ul>
@@ -441,16 +441,16 @@ document.write(`
   <span><i class="fa-fw fa fa-folder-open"></i></span
   >
    
-  <a href="../../blog/category/sistema-de-gestion-bibliotecaria/">Sistema de Gestión Bibliotecaria</a>  
+  <a href="../../blog/category/repositorios/">Repositorios</a>  
 </li>
  
 <li id="tags">
   <span><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="../../blog/tag/software/">software</a>   
-  <a href="../../blog/tag/catalogacion/">catalogación</a>   
-  <a href="../../blog/tag/open-source/">open source</a>  
+  <a href="../../blog/tag/dsapce/">dsapce</a>   
+  <a href="../../blog/tag/migracion/">migración</a>   
+  <a href="../../blog/tag/repositorio/">repositorio</a>  
 </li>
  
 <li id="comments">
@@ -473,7 +473,7 @@ document.write(`
   <i class="fa-fw fa fa-comments"></i>
   <a
     href="#disqus_thread"
-    data-disqus-identifier="/posts/evergreen/"
+    data-disqus-identifier="/posts/dspace7-migrations/"
   >
     </a
   >
@@ -515,7 +515,7 @@ document.write(`
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page">Evergreen</li>
+    <li class="breadcrumb-item active" aria-current="page">Actualización a Dspace 7</li>
   </ul>
 </nav>
 </div>
@@ -531,65 +531,63 @@ document.write(`
                 
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
-                   <section id="evergreen">
-<h1>Evergreen<a class="headerlink" href="#evergreen" title="Enlace permanente a este encabezado">#</a></h1>
-<p><span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">software</span> <span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">open source</span> <span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">catalogación</span></p>
-<div class="sidebar tip admonition">
-<p class="admonition-title">Evergreen Software Logo</p>
-<a class="reference internal image-reference" href="../../_images/evergreen.jpg"><img alt="../../_images/evergreen.jpg" class="align-center" src="../../_images/evergreen.jpg" style="width: 200px; height: 200px;" /></a>
-<p><em>Imagen tomada del sitio web oficial</em></p>
+                   <section id="actualizacion-a-dspace-7">
+<h1>Actualización a Dspace 7<a class="headerlink" href="#actualizacion-a-dspace-7" title="Enlace permanente a este encabezado">#</a></h1>
+<p><span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">Dspace</span> <span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">repositorio</span></p>
+<p>La migración o actualización a DSpace 7 es un proceso que requiere una planificación y ejecución cuidadosa. Cada repositorio es único por lo que tiene que examinar cuidadosamente su entorno y evaluar sus capacidades para realizar este proceso de migración o actualización. A continuación, se detallo los pasos clave que considero se debes seguir en las fases en este proceso:</p>
+<div class="admonition warning">
+<p class="admonition-title">Advertencia</p>
+<p>La migración a DSpace 7 es un proceso complejo que involucra actualizar múltiples componentes y configuraciones. Es importante realizar pruebas en un entorno de desarrollo antes de llevar a cabo la migración en producción para asegurarse de que todo funcione correctamente y minimizar el impacto en los usuarios y el contenido del repositorio. Asegúrese de seguir la documentación de DSpace y contar con la asistencia de profesionales de TI si es necesario para llevar a cabo la migración de manera exitosa.</p>
 </div>
-<p>Evergreen ILS (Integrated Library System) es un sistema integrado de gestión de bibliotecas que ha sido desarrollado específicamente para satisfacer las necesidades de bibliotecas y centros de información. Evergreen ILS es un software de código abierto, lo que significa que su código fuente es de acceso público y puede ser utilizado y modificado libremente por cualquier persona.</p>
-<p>El propósito principal de Evergreen ILS es automatizar y facilitar la gestión de las operaciones cotidianas de una biblioteca, incluyendo la catalogación, circulación, adquisición, búsqueda y recuperación de información, gestión de usuarios y otras funciones esenciales para el funcionamiento efectivo de una biblioteca. A través de su plataforma, los bibliotecarios pueden administrar colecciones de libros, revistas, materiales multimedia y otros recursos de manera eficiente.</p>
-<div class="important admonition">
-<p class="admonition-title">Datos técnicos</p>
-<div class="line-block">
-<div class="line"><strong>Año de creación</strong>: 2006.</div>
-<div class="line"><strong>OAI</strong>: Soporta el protocolo OAI-PMH</div>
-<div class="line"><strong>URL</strong>: <a class="reference external" href="https://evergreen-ils.org/egdownloads/">https://evergreen-ils.org/egdownloads/</a></div>
-</div>
-</div>
-<section id="caracterisitcas">
-<h2>✨ Caracterísitcas<a class="headerlink" href="#caracterisitcas" title="Enlace permanente a este encabezado">#</a></h2>
-<p>Algunas características y funcionalidades clave de Evergreen ILS incluyen:</p>
+<section id="fase-de-preparacion">
+<h2>🛠️ Fase de Preparación<a class="headerlink" href="#fase-de-preparacion" title="Enlace permanente a este encabezado">#</a></h2>
+<p>Se deben actualizar los requsitos del servidor con la finalidad de que los softwares sean compatibles con la nueva versión a instalar</p>
 <ol class="arabic simple">
-<li><p><strong>Catalogación y clasificación de materiales:</strong> Evergreen ILS permite a los bibliotecarios catalogar y organizar los materiales de la biblioteca de manera efectiva. Pueden crear registros bibliográficos, asignar números de clasificación y etiquetas, y definir la estructura y metadatos para cada elemento de la colección.</p></li>
-<li><p><strong>Circulación y préstamo</strong>: Esta característica facilita la gestión de préstamos y devoluciones de materiales. Los bibliotecarios pueden establecer políticas de préstamo, manejar renovaciones, gestionar multas por retrasos y manejar las reservas del material bibliográfico.</p></li>
-<li><p><strong>Catálogo en línea</strong>: Evergreen ILS proporciona un catálogo en línea donde los usuarios pueden buscar y explorar los materiales disponibles en la biblioteca. Los usuarios pueden acceder a esta interfaz para buscar libros, verificar disponibilidad, realizar reservas y obtener información detallada sobre los recursos.</p></li>
-<li><p><strong>Gestión de usuarios</strong>: Permite la administración eficiente de usuarios, incluyendo el registro, actualización y seguimiento de la actividad de los miembros de la biblioteca. Los bibliotecarios pueden registrar datos personales, historiales de préstamos y preferencias de los usuarios.</p></li>
-<li><p><strong>Adquisiciones y gestión financiera</strong>: Facilita la adquisición de nuevos materiales, incluyendo el proceso de compra y recepción de artículos. También ayuda a administrar los aspectos financieros relacionados con las compras y el presupuesto asignado para la adquisición de nuevos materiales.</p></li>
-<li><p><strong>Gestión de reservas</strong>: Incluye un módulo para la gestión de reserva de espacios y equipos.</p></li>
-<li><p><strong>Generación de informes y estadísticas</strong>: Proporciona herramientas para generar informes detallados y estadísticas sobre diversas métricas de la biblioteca, como el uso de materiales, patrones de préstamos, popularidad de ciertos recursos, entre otros. Estos informes son esenciales para la toma de decisiones y la evaluación del rendimiento de la biblioteca.</p></li>
+<li><p><strong>Actualizar Java:</strong> Asegúrese de que su sistema esté utilizando la versión de Java compatible con DSpace 7. Consulte la documentación de DSpace para conocer la versión recomendada.</p></li>
+<li><p><strong>Actualizar PostgreSQL:</strong> Actualice su base de datos PostgreSQL a la versión requerida por DSpace 7. Consulte la documentación de DSpace para conocer la versión recomendada.</p></li>
+<li><p><strong>Actualizar Solr:</strong> Asegúrese de que Solr esté actualizado y configurado correctamente para DSpace 7. Solr es esencial para la búsqueda y el descubrimiento de contenido.</p></li>
+<li><p><strong>Actualizar Apache Maven y Apache Ant:</strong> Asegúrese de que Maven y Ant estén actualizados para facilitar la compilación y construcción de DSpace 7.</p></li>
+<li><p><strong>Actualizar Tomcat:</strong> Actualice su servidor Tomcat a la versión recomendada por DSpace 7. Tomcat es el contenedor web utilizado para ejecutar DSpace.</p></li>
 </ol>
-<div class="tip admonition">
-<p class="admonition-title">Prueba Evergreen</p>
-<p>Si deseas probarlo puedes acceder a estos servidores proporcionados por la comunidad: <a class="reference external" href="https://wiki.evergreen-ils.org/doku.php?id=community_servers">https://wiki.evergreen-ils.org/doku.php?id=community_servers</a></p>
+<div class="admonition seealso">
+<p class="admonition-title">Ver también</p>
+<p>Para más detalles consulte la <a class="reference external" href="https://wiki.lyrasis.org/display/DSDOC7x/Installing+DSpace#InstallingDSpace-BackendRequirements">documentación oficial de Dspace</a></p>
 </div>
 </section>
-<section id="desvenjatas">
-<h2>📉 Desvenjatas<a class="headerlink" href="#desvenjatas" title="Enlace permanente a este encabezado">#</a></h2>
+<section id="fase-de-migracion">
+<h2>🚀 Fase de Migración<a class="headerlink" href="#fase-de-migracion" title="Enlace permanente a este encabezado">#</a></h2>
+<p>Durante esta fase se migrará la información hacia el nuevo sistema de manera que se minimice la pérdida de datos.</p>
 <ol class="arabic simple">
-<li><p><strong>Publicaciones periódicas</strong>: La desventaja de la falta de gestión de publicaciones periódicas en el sistema Evergreen ILS radica no incluye un módulo para organizar y pgestionar las revistas y periódicos. Dado que Evergreen ILS inicialmente se enfocó más en la gestión de libros y otros materiales de biblioteca.</p></li>
-<li><p><strong>Informes y estadísticas</strong>: La posibilidad de extraer informes es un sistema increíblemente caótico que parece innecesariamente recargado y no es muy intuitivo para los bibliotecarios, por lo que se requiere de estudio y capacitación para utilizarlos de manera correcta.</p></li>
+<li><p><strong>Hacer backup de la base de datos:</strong> Realice una copia de seguridad completa de su base de datos PostgreSQL y de las estadísiticas proporcionadas por SOLR para garantizar que los datos estén seguros durante el proceso de migración.</p></li>
+<li><p><strong>Compilación de Dspace</strong>: Descargue del reopisotrio oficial la última versión estable y siga el proceso de compilación para llevar a cabo una instalación fresca..</p></li>
+<li><p><strong>Migrar el backend DSpace 7:</strong> Utilice el proceso de migración proporcionado por DSpace 7, que incluye el uso de FlywayDB para actualizar la estructura de la base de datos y adaptarla a la nueva versión.</p></li>
+<li><p><strong>Actualizar la configuración del servidor del handle:</strong> Asegúrese de que la configuración del servidor de manejo de identificadores (handle) esté actualizada y sea compatible con DSpace 7.</p></li>
+<li><p><strong>Reindexar todos los contenidos:</strong> Después de la migración, es esencial volver a indexar todos los contenidos en Solr para que estén disponibles en la nueva versión de DSpace.</p></li>
+</ol>
+<div class="admonition seealso">
+<p class="admonition-title">Ver también</p>
+<p>Puede consultar la guía oficial ofrecida por Dspace para la migración: <a class="reference external" href="https://wiki.lyrasis.org/display/DSDOC7x/Upgrading+DSpace">Actualizando a Dspace 7</a></p>
+</div>
+</section>
+<section id="requisitos-del-repositorio">
+<h2>✅ Requisitos del Repositorio<a class="headerlink" href="#requisitos-del-repositorio" title="Enlace permanente a este encabezado">#</a></h2>
+<p>Con la finalidad de poder emplear todas las caracterísitcas del sofware considero que los repositorios deberían cumplir con los siguientes requisitos</p>
+<ol class="arabic simple">
+<li><p><strong>Establecer permisos y grupos de usuarios:</strong> Defina y establezca los permisos y grupos de usuarios en DSpace 7 según sus necesidades y políticas de acceso.</p></li>
+<li><p><strong>Crear flujos de trabajo para colecciones:</strong> Configure los flujos de trabajo para las colecciones que los requieran. DSpace 7 permite definir flujos de trabajo personalizados.</p></li>
+<li><p><strong>Definir políticas de embargo y tiempos:</strong> Establezca las políticas de embargo para los objetos y defina los plazos de acceso restringido según sus requisitos.</p></li>
+<li><p><strong>Preparar el esquema de metadatos:</strong> Asegúrese de que el esquema de metadatos esté configurado de acuerdo con el perfil de aplicación seleccionado (Dublin Core, OpenAire 3.0 o Driver 2.0) y se ajuste a sus necesidades de catalogación.</p></li>
 </ol>
 </section>
-<section id="enlaces-utiles">
-<h2>🔗 Enlaces útiles<a class="headerlink" href="#enlaces-utiles" title="Enlace permanente a este encabezado">#</a></h2>
+<section id="documentacion-util">
+<h2>➡️ Documentación útil<a class="headerlink" href="#documentacion-util" title="Enlace permanente a este encabezado">#</a></h2>
 <ol class="arabic simple">
-<li><p>Aprenda más sobre Evergreen consultando la documentación oficial: <a class="reference external" href="https://docs.evergreen-ils.org/eg/docs/latest/index.html">https://docs.evergreen-ils.org/eg/docs/latest/index.html</a></p></li>
-<li><p>Wiki de Evergreen: <a class="reference external" href="https://wiki.evergreen-ils.org/doku.php?id=start">https://wiki.evergreen-ils.org/doku.php?id=start</a></p></li>
+<li><p><a class="reference external" href="https://submissions.istec.org/index.php/biredial-istec/article/download/183/23/623">Experiencias en la migración de un repositorio - ISTEC</a></p></li>
+<li><p><a class="reference external" href="https://zenodo.org/records/8074863">Upgrade to DSpace 7</a></p></li>
+<li><p><a class="reference external" href="https://revistas.um.es/analesdoc/article/view/567401">Análisis de estrategias de actualización de repositorios digitales a DSpace 7</a></p></li>
+<li><p><a class="reference external" href="https://revistas.utp.ac.pa/index.php/memoutp/article/view/1843/html">Desarrollo del método automático para la actualización de repositorios institucionales basados en DSpace</a></p></li>
+<li><p><a class="reference external" href="https://submissions.istec.org/index.php/biredial-istec/article/download/183/23/623">Experiencias en la migración de un repositorio - ISTEC</a></p></li>
 </ol>
-</section>
-<section id="notas">
-<h2>📝 Notas<a class="headerlink" href="#notas" title="Enlace permanente a este encabezado">#</a></h2>
-<div class="admonition note">
-<p class="admonition-title">Nota</p>
-<p>El módulo de reservas incorporado en el sistema es altamente eficaz para la gestión y reserva de espacios y equipos. Estas reservas se llevan a cabo para los usuarios registrados en el sistema y pueden ser realizadas tanto desde el perfil del usuario como desde el propio módulo de reservas.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Nota</p>
-<p>Las funciones de « Curbside Pickup» en Evergreen ofrece una interfaz diseñada para agilizar la recogida gratuita de materiales en la biblioteca. Esta funcionalidad brinda una interfaz exclusiva en el cliente para el personal de la biblioteca, permitiéndoles rastrear y gestionar las citas y la recolección de materiales en la acera durante las diferentes fases del proceso. Además, el personal tiene la capacidad de programar citas de recogida en nombre de los clientes.</p>
-</div>
 </section>
 </section>
 
@@ -599,20 +597,13 @@ document.write(`
 <div class="section">
   <span style="float: left">
      
-    <a href="../koha/">
-      <i class="fa fa-arrow-circle-left"></i> Koha
+    <a href="../pmb/">
+      <i class="fa fa-arrow-circle-left"></i> PMB
     </a>
     
   </span>
   <span>&nbsp;</span>
   <span style="float: right">
-     
-    <a href="../omekas/">
-      Omeka-S <i
-        class="fa fa-arrow-circle-right"
-      ></i
-      >
-    </a>
     
   </span>
 </div>
@@ -622,9 +613,9 @@ document.write(`
     <div id="disqus_thread"></div>
     <script type="text/javascript">
       var disqus_shortname = "bibliobytes";
-      var disqus_identifier = "/posts/evergreen/";
-      var disqus_title = "Evergreen";
-      var disqus_url = "https://luis575497.github.io/posts/evergreen";
+      var disqus_identifier = "/posts/dspace7-migrations/";
+      var disqus_title = "Actualización a Dspace 7";
+      var disqus_url = "https://luis575497.github.io/posts/dspace7-migrations";
 
       (function () {
         var dsq = document.createElement("script");
@@ -678,16 +669,16 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caracterisitcas">✨ Caracterísitcas</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#desvenjatas">📉 Desvenjatas</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enlaces-utiles">🔗 Enlaces útiles</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notas">📝 Notas</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fase-de-preparacion">🛠️ Fase de Preparación</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fase-de-migracion">🚀 Fase de Migración</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#requisitos-del-repositorio">✅ Requisitos del Repositorio</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentacion-util">➡️ Documentación útil</a></li>
 </ul>
   </nav></div>
 
   <div class="sidebar-secondary-item">
   <div class="tocsection sourcelink">
-    <a href="../../_sources/posts/evergreen.rst.txt">
+    <a href="../../_sources/posts/dspace7-migrations.rst.txt">
       <i class="fa-solid fa-file-lines"></i> Mostrar el código
     </a>
   </div>

@@ -1,0 +1,10 @@
+📊 Bibliometría
+=====================
+La bibliometría es una disciplina que se dedica a medir y analizar la producción, difusión y uso de la información científica y académica, permitiendo cuantificar la actividad científica, evaluar la calidad de la investigación, analizar la difusión de la misma y medir su impacto a través de métodos estadísticos y matemáticos, siendo fundamental en la evaluación de investigadores, instituciones y la toma de decisiones académicas y políticas de investigación.
+
+
+🖥️ Herramientas
+-------------------------
+- `Publish or Perish <https://harzing.com/resources/publish-or-perish>`_
+- `VOSviewer <https://www.vosviewer.com/download>`_
+- `Bibliometrix <https://www.bibliometrix.org/home/>`_

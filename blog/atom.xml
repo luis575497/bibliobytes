@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-10-24T21:30:13.322455+00:00</updated>
+  <updated>2023-10-25T15:50:07.075312+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -113,5 +113,23 @@
     <category term="opensource" label="open source"/>
     <category term="software" label="software"/>
     <published>2023-10-24T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/dspace7-migrations/</id>
+    <title>Actualización a Dspace 7</title>
+    <updated>2023-10-25T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;La migración o actualización a DSpace 7 es un proceso que requiere una planificación y ejecución cuidadosa. Cada repositorio es único por lo que tiene que examinar cuidadosamente su entorno y evaluar sus capacidades para realizar este proceso de migración o actualización. A continuación, se detallo los pasos clave que considero se debes seguir en las fases en este proceso:&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/dspace7-migrations/" rel="alternate"/>
+    <summary>La migración o actualización a DSpace 7 es un proceso que requiere una planificación y ejecución cuidadosa. Cada repositorio es único por lo que tiene que examinar cuidadosamente su entorno y evaluar sus capacidades para realizar este proceso de migración o actualización. A continuación, se detallo los pasos clave que considero se debes seguir en las fases en este proceso:</summary>
+    <category term="dsapce" label="dsapce"/>
+    <category term="migración" label="migración"/>
+    <category term="repositorio" label="repositorio"/>
+    <published>2023-10-25T00:00:00-05:00</published>
   </entry>
 </feed>
