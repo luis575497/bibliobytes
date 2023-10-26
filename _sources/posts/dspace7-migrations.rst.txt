@@ -3,7 +3,7 @@
    :category: Repositorios
    :author: Luis Enrique Lescano Borrego
    :exclude:
-   
+
    La migración o actualización a DSpace 7 es un proceso que requiere una planificación y ejecución cuidadosa. Cada repositorio es único por lo que tiene que examinar cuidadosamente su entorno y evaluar sus capacidades para realizar este proceso de migración o actualización. A continuación, se detallo los pasos clave que considero se debes seguir en las fases en este proceso:
 
 .. meta::
@@ -62,7 +62,9 @@ Con la finalidad de poder emplear todas las caracterísitcas del sofware conside
 ----------------------------------
 
 #. `Experiencias en la migración de un repositorio - ISTEC <https://submissions.istec.org/index.php/biredial-istec/article/download/183/23/623>`_
+#. `Experiencias en la migración de repositorios institucionales DSpace <http://sedici.unlp.edu.ar/bitstream/handle/10915/153314/Documento_completo.pdf-PDFA.pdf?sequence=1>`_
 #. `Upgrade to DSpace 7 <https://zenodo.org/records/8074863>`_
+#. `Recomendaciones técnicas para la migración a Dspace 7 <https://repositorio.concytec.gob.pe/bitstream/20.500.12390/2912/1/SIRDAA2021_TimalJulian.pdf>`_
 #. `Análisis de estrategias de actualización de repositorios digitales a DSpace 7 <https://revistas.um.es/analesdoc/article/view/567401>`_
 #. `Desarrollo del método automático para la actualización de repositorios institucionales basados en DSpace <https://revistas.utp.ac.pa/index.php/memoutp/article/view/1843/html>`_
 #. `Experiencias en la migración de un repositorio - ISTEC <https://submissions.istec.org/index.php/biredial-istec/article/download/183/23/623>`_
