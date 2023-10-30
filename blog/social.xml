@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-10-26T16:29:16.011285+00:00</updated>
+  <updated>2023-10-30T22:05:14.976194+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/social.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -43,7 +43,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Omeka-S #repositorio #software #opensource</content>
+    <content type="html">Omeka-S #software #repositorio #opensource</content>
     <link href="https://luis575497.github.io/posts/omekas/" rel="alternate"/>
     <summary>Omeka S (Semantic) es un sistema de gestión de contenidos de software libre diseñado para satisfacer las necesidades de diversas instituciones culturales, tales como bibliotecas, archivos, museos y universidades, permitiéndoles desarrollar una amplia gama de proyectos digitales…</summary>
     <category term="opensource" label="open source"/>
@@ -58,7 +58,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">LibreBooking #reservas #software #opensource</content>
+    <content type="html">LibreBooking #software #opensource #reservas</content>
     <link href="https://luis575497.github.io/posts/librebooking/" rel="alternate"/>
     <summary>LibreBooking es un software de código abierto (open source) que se utiliza para gestionar y reservar recursos compartidos en entornos empresariales y organizacionales.</summary>
     <category term="opensource" label="open source"/>
@@ -73,7 +73,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">DSpace #repositorio #software #opensource</content>
+    <content type="html">DSpace #software #repositorio #opensource</content>
     <link href="https://luis575497.github.io/posts/dspace/" rel="alternate"/>
     <summary>DSpace es un sistema de gestión de repositorios de código abierto diseñado para ayudar a las instituciones, como universidades y bibliotecas, a crear, mantener y gestionar repositorios digitales de contenido académico, científico, cultural y otros tipos de información. DSpace proporciona una plataforma para almacenar, organizar, preservar y proporcionar …</summary>
     <category term="opensource" label="open source"/>
@@ -99,16 +99,31 @@
   <entry>
     <id>https://luis575497.github.io/posts/dspace7-migrations/</id>
     <title>Actualización a Dspace 7</title>
-    <updated>2023-10-25T00:00:00-05:00</updated>
+    <updated>2023-10-26T00:00:00-05:00</updated>
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Actualización a Dspace 7 #repositorio #migración #dsapce</content>
+    <content type="html">Actualización a Dspace 7 #migración #dsapce #repositorio</content>
     <link href="https://luis575497.github.io/posts/dspace7-migrations/" rel="alternate"/>
     <summary>La migración o actualización a DSpace 7 es un proceso que requiere una planificación y ejecución cuidadosa. Cada repositorio es único por lo que tiene que examinar cuidadosamente su entorno y evaluar sus capacidades para realizar este proceso de migración o actualización. A continuación, se detallo los pasos clave que considero se debes seguir en las fases en este proceso:</summary>
     <category term="dsapce" label="dsapce"/>
     <category term="migración" label="migración"/>
     <category term="repositorio" label="repositorio"/>
     <published>2023-10-25T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/workflow-dspace/</id>
+    <title>Creación de flujos de trabajo efectivos en Dspace 7</title>
+    <updated>2023-10-30T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">Creación de flujos de trabajo efectivos en Dspace 7 #trabajo #Dspace #repositorios</content>
+    <link href="https://luis575497.github.io/posts/workflow-dspace/" rel="alternate"/>
+    <summary>Los flujos de trabajo en DSpace 7 desempeñan un papel fundamental en la gestión de contenido. Establecer un flujo de trabajo adecuado proporciona numerosos beneficios:</summary>
+    <category term="Dspace" label="Dspace"/>
+    <category term="repositorios" label="repositorios"/>
+    <category term="trabajo" label="trabajo"/>
+    <published>2023-10-30T00:00:00-05:00</published>
   </entry>
 </feed>

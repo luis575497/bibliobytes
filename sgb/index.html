@@ -30,6 +30,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-dropdown.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.min.css" />
@@ -231,17 +232,6 @@ document.write(`
         </div>
       
       
-        <div class="navbar-item">
-<script>
-document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="claro/oscuro" aria-label="claro/oscuro" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
-  </button>
-`);
-</script></div>
-      
         <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
     aria-label="Icon Links">
         <li class="nav-item">
@@ -269,6 +259,9 @@ document.write(`
             <label class="sr-only">ORCID</label></a>
         </li>
 </ul></div>
+      
+        <div class="navbar-item">
+<div id="searchbox"></div></div>
       
     </div>
     
@@ -352,17 +345,6 @@ document.write(`
     
       <div class="sidebar-header-items__end">
         
-          <div class="navbar-item">
-<script>
-document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="claro/oscuro" aria-label="claro/oscuro" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
-  </button>
-`);
-</script></div>
-        
           <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
     aria-label="Icon Links">
         <li class="nav-item">
@@ -390,6 +372,9 @@ document.write(`
             <label class="sr-only">ORCID</label></a>
         </li>
 </ul></div>
+        
+          <div class="navbar-item">
+<div id="searchbox"></div></div>
         
       </div>
     
@@ -427,6 +412,12 @@ document.write(`
 <ul>
    
   <li>
+    <a href="../posts/workflow-dspace/"
+      >30 octubre - Creación de flujos de trabajo efectivos en Dspace 7</a
+    >
+  </li>
+  
+  <li>
     <a href="../posts/dspace7-migrations/"
       >25 octubre - Actualización a Dspace 7</a
     >
@@ -450,12 +441,6 @@ document.write(`
     >
   </li>
   
-  <li>
-    <a href="../posts/omekas/"
-      >13 octubre - Omeka-S</a
-    >
-  </li>
-  
 </ul>
 </div>
         <div class="sidebar-primary-item">
@@ -465,7 +450,7 @@ document.write(`
 <ul>
    
   <li>
-    <a href="../blog/2023/">2023 (7)</a>
+    <a href="../blog/2023/">2023 (8)</a>
   </li>
    
 </ul>

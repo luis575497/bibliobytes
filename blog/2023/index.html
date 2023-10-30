@@ -29,6 +29,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.min.css" />
@@ -230,17 +231,6 @@ document.write(`
         </div>
       
       
-        <div class="navbar-item">
-<script>
-document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="claro/oscuro" aria-label="claro/oscuro" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
-  </button>
-`);
-</script></div>
-      
         <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
     aria-label="Icon Links">
         <li class="nav-item">
@@ -268,6 +258,9 @@ document.write(`
             <label class="sr-only">ORCID</label></a>
         </li>
 </ul></div>
+      
+        <div class="navbar-item">
+<div id="searchbox"></div></div>
       
     </div>
     
@@ -347,17 +340,6 @@ document.write(`
     
       <div class="sidebar-header-items__end">
         
-          <div class="navbar-item">
-<script>
-document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="claro/oscuro" aria-label="claro/oscuro" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
-  </button>
-`);
-</script></div>
-        
           <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
     aria-label="Icon Links">
         <li class="nav-item">
@@ -385,6 +367,9 @@ document.write(`
             <label class="sr-only">ORCID</label></a>
         </li>
 </ul></div>
+        
+          <div class="navbar-item">
+<div id="searchbox"></div></div>
         
       </div>
     
@@ -448,12 +433,12 @@ document.write(`
 
   <div class="section ablog-post">
     <h2 class="ablog-post-title">
-      <a href="../../posts/dspace7-migrations/">Actualización a Dspace 7</a>
+      <a href="../../posts/workflow-dspace/">Creación de flujos de trabajo efectivos en Dspace 7</a>
     </h2>
 
     <ul class="ablog-archive">
       <li>
-         <i class="fa fa-calendar"></i> 25 octubre 2023 
+         <i class="fa fa-calendar"></i> 30 octubre 2023 
       </li>
        
 <li id="author">
@@ -474,9 +459,58 @@ document.write(`
   <span><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="../tag/repositorio/">repositorio</a>   
+  <a href="../tag/trabajo/">trabajo</a>   
+  <a href="../tag/dspace/">Dspace</a>   
+  <a href="../tag/repositorios/">repositorios</a>  
+</li>
+ 
+    </ul>
+    <div class="ablog-post-excerpt docutils container">
+<p>Los flujos de trabajo en DSpace 7 desempeñan un papel fundamental en la gestión de contenido. Establecer un flujo de trabajo adecuado proporciona numerosos beneficios:</p>
+</div>
+
+    <p class="ablog-post-expand"><a href="../../posts/workflow-dspace/"><em>Leer más ...</em></a></p>
+    <hr/>
+  </div>
+  
+
+  <div class="section ablog-post">
+    <h2 class="ablog-post-title">
+      <a href="../../posts/dspace7-migrations/">Actualización a Dspace 7</a>
+    </h2>
+
+    <ul class="ablog-archive">
+      <li>
+         <i class="fa fa-calendar"></i> 25 octubre 2023 
+      </li>
+      
+<li id="published">
+  <span><i class="fa fa-pencil-square-o"></i></span
+  >
+  26 octubre 2023
+</li>
+ 
+<li id="author">
+  <span><i class="fa-fw fa fa-user"></i></span
+  >
+   
+  <a href="../author/luis-enrique-lescano-borrego/">Luis Enrique Lescano Borrego</a>  
+</li>
+   
+<li id="category">
+  <span><i class="fa-fw fa fa-folder-open"></i></span
+  >
+   
+  <a href="../category/repositorios/">Repositorios</a>  
+</li>
+ 
+<li id="tags">
+  <span><i class="fa-fw fa fa-tags"></i> </span
+  >
+   
   <a href="../tag/migracion/">migración</a>   
-  <a href="../tag/dsapce/">dsapce</a>  
+  <a href="../tag/dsapce/">dsapce</a>   
+  <a href="../tag/repositorio/">repositorio</a>  
 </li>
  
     </ul>
@@ -560,8 +594,8 @@ document.write(`
   <span><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="../tag/repositorio/">repositorio</a>   
   <a href="../tag/software/">software</a>   
+  <a href="../tag/repositorio/">repositorio</a>   
   <a href="../tag/open-source/">open source</a>  
 </li>
  
@@ -603,9 +637,9 @@ document.write(`
   <span><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="../tag/reservas/">reservas</a>   
   <a href="../tag/software/">software</a>   
-  <a href="../tag/open-source/">open source</a>  
+  <a href="../tag/open-source/">open source</a>   
+  <a href="../tag/reservas/">reservas</a>  
 </li>
  
     </ul>
@@ -646,8 +680,8 @@ document.write(`
   <span><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="../tag/repositorio/">repositorio</a>   
   <a href="../tag/software/">software</a>   
+  <a href="../tag/repositorio/">repositorio</a>   
   <a href="../tag/open-source/">open source</a>  
 </li>
  

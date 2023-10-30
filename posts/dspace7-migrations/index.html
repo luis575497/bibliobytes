@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 <meta content="Descubre los pasos clave para llevar a cabo la migración o actualización a DSpace 7, un proceso que requiere una cuidadosa planificación y ejecución. Asegúrate de preparar tu servidor, hacer una copia de seguridad de la base de datos, migrar el backend de DSpace 7 y más. Además, conoce los requisitos y la documentación útil para una actualización exitosa." name="description" />
-<meta content="DSpace 7, migración a DSpace 7, actualización de repositorio, preparación para DSpace 7, fase de migración, requisitos del repositorio, copia de seguridad, indexación de contenidos, actualización de software, documentación DSpace, actualización exitosa, migración de repositorios" name="keywords" />
+<meta content="DSpace 7, migración a DSpace 7, actualización de repositorio, preparación para DSpace 7, requisitos del repositorio, copia de seguridad, indexación de contenidos, actualización de software, documentación DSpace, actualización exitosa, migración de repositorios" name="keywords" />
 
     <title>Actualización a Dspace 7 &#8212; documentación de BiblioBytes - 0.0.1</title>
   
@@ -32,6 +32,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-dropdown.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.min.css" />
@@ -233,17 +234,6 @@ document.write(`
         </div>
       
       
-        <div class="navbar-item">
-<script>
-document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="claro/oscuro" aria-label="claro/oscuro" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
-  </button>
-`);
-</script></div>
-      
         <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
     aria-label="Icon Links">
         <li class="nav-item">
@@ -271,6 +261,9 @@ document.write(`
             <label class="sr-only">ORCID</label></a>
         </li>
 </ul></div>
+      
+        <div class="navbar-item">
+<div id="searchbox"></div></div>
       
     </div>
     
@@ -354,17 +347,6 @@ document.write(`
     
       <div class="sidebar-header-items__end">
         
-          <div class="navbar-item">
-<script>
-document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="claro/oscuro" aria-label="claro/oscuro" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
-  </button>
-`);
-</script></div>
-        
           <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
     aria-label="Icon Links">
         <li class="nav-item">
@@ -392,6 +374,9 @@ document.write(`
             <label class="sr-only">ORCID</label></a>
         </li>
 </ul></div>
+        
+          <div class="navbar-item">
+<div id="searchbox"></div></div>
         
       </div>
     
@@ -429,7 +414,13 @@ document.write(`
 </h2>
 
 <ul>
-   
+  
+<li id="published">
+  <span><i class="fa fa-pencil-square-o"></i></span
+  >
+  26 octubre 2023
+</li>
+ 
 <li id="author">
   <span><i class="fa-fw fa fa-user"></i></span
   >
@@ -448,9 +439,9 @@ document.write(`
   <span><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="../../blog/tag/repositorio/">repositorio</a>   
   <a href="../../blog/tag/migracion/">migración</a>   
-  <a href="../../blog/tag/dsapce/">dsapce</a>  
+  <a href="../../blog/tag/dsapce/">dsapce</a>   
+  <a href="../../blog/tag/repositorio/">repositorio</a>  
 </li>
  
 <li id="comments">
@@ -590,6 +581,10 @@ document.write(`
 <li><p><a class="reference external" href="https://revistas.utp.ac.pa/index.php/memoutp/article/view/1843/html">Desarrollo del método automático para la actualización de repositorios institucionales basados en DSpace</a></p></li>
 <li><p><a class="reference external" href="https://submissions.istec.org/index.php/biredial-istec/article/download/183/23/623">Experiencias en la migración de un repositorio - ISTEC</a></p></li>
 </ol>
+<div class="note update admonition">
+<p class="admonition-title">Updated on 26 octubre 2023</p>
+<p>Se actualizaron y agregaron links en la Sección de <strong>➡️ Documentación útil</strong></p>
+</div>
 </section>
 </section>
 
@@ -606,6 +601,13 @@ document.write(`
   </span>
   <span>&nbsp;</span>
   <span style="float: right">
+     
+    <a href="../workflow-dspace/">
+      Creación de flujos de trabajo efectivos en Dspace 7 <i
+        class="fa fa-arrow-circle-right"
+      ></i
+      >
+    </a>
     
   </span>
 </div>
