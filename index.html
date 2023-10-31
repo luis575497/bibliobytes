@@ -10,7 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 <meta content="BiblioBytes es tu fuente de información confiable sobre tecnología en bibliotecas. Explora las últimas innovaciones digitales y descubre cómo la tecnología puede revolucionar la experiencia de los usuarios en el mundo de las bibliotecas. Únete a Luis Enrique Lescano, un apasionado bibliotecario, en este viaje digital." name="description" />
 <meta content="BiblioBytes, tecnología en bibliotecas, innovaciones digitales, bibliotecario, tecnología, experiencia del usuario, información, comunidad, Luis Enrique Lescano" name="keywords" />
-
+    <link href="_static/favicon-16x16.png" sizes="16x16" rel="icon" type="image/png">
+    <link href="_static/favicon-32x32.png" sizes="32x32" rel="icon" type="image/png">
     <title>¡Bienvenido a BiblioBytes! &#8212; documentación de BiblioBytes - 0.0.1</title>
   
   
@@ -225,15 +226,35 @@
       
         <div class="navbar-item navbar-persistent--container">
           
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Búsqueda" aria-label="Búsqueda" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-  </button>
-`);
-</script>
+<form class="bd-search d-flex align-items-center"
+      action="search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
         </div>
       
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="claro/oscuro" aria-label="claro/oscuro" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script></div>
       
         <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
     aria-label="Icon Links">
@@ -261,10 +282,19 @@ document.write(`
           <a href="https://orcid.org/0000-0001-7921-4228" title="ORCID" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-orcid fa-2xl"></i></span>
             <label class="sr-only">ORCID</label></a>
         </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://t.me/+YOGWLBReaGYwMzRh" title="Telegram" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-telegram fa-2xl"></i></span>
+            <label class="sr-only">Telegram</label></a>
+        </li>
 </ul></div>
-      
-        <div class="navbar-item">
-<div id="searchbox"></div></div>
       
     </div>
     
@@ -272,13 +302,22 @@ document.write(`
   
   
     <div class="navbar-persistent--mobile">
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Búsqueda" aria-label="Búsqueda" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-  </button>
-`);
-</script>
+<form class="bd-search d-flex align-items-center"
+      action="search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
     </div>
   
 
@@ -348,6 +387,17 @@ document.write(`
     
       <div class="sidebar-header-items__end">
         
+          <div class="navbar-item">
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="claro/oscuro" aria-label="claro/oscuro" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script></div>
+        
           <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
     aria-label="Icon Links">
         <li class="nav-item">
@@ -374,10 +424,19 @@ document.write(`
           <a href="https://orcid.org/0000-0001-7921-4228" title="ORCID" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-orcid fa-2xl"></i></span>
             <label class="sr-only">ORCID</label></a>
         </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://t.me/+YOGWLBReaGYwMzRh" title="Telegram" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-telegram fa-2xl"></i></span>
+            <label class="sr-only">Telegram</label></a>
+        </li>
 </ul></div>
-        
-          <div class="navbar-item">
-<div id="searchbox"></div></div>
         
       </div>
     
@@ -447,7 +506,7 @@ document.write(`
     <a href="blog/tag/dspace/">Dspace</a>
   </li>
     
-  <li class="ablog-cloud ablog-cloud-2">
+  <li class="ablog-cloud ablog-cloud-3">
     <a href="blog/tag/catalogacion/">catalogación</a>
   </li>
     
@@ -551,6 +610,10 @@ es mi rincón digital, donde exploramos juntos cómo la tecnología puede revolu
 <section id="ultimas-publicaciones">
 <h2>Últimas Publicaciones<a class="headerlink" href="#ultimas-publicaciones" title="Enlace permanente a este encabezado">#</a></h2>
 <ul class="postlist-style-none postlist">
+<li class="ablog-post"><p class="ablog-post-title"><a class="reference internal" href="posts/invenio-ils/">Invenio ILS</a> - 2023-10-31</p>
+<p class="ablog-post-excerpt">Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos …</p>
+<p class="ablog-post-expand"><a class="reference internal" href="posts/invenio-ils/"><em>Leer más ...</em></a></p>
+</li>
 <li class="ablog-post"><p class="ablog-post-title"><a class="reference internal" href="posts/workflow-dspace/">Creación de flujos de trabajo efectivos en Dspace 7</a> - 2023-10-30</p>
 <p class="ablog-post-excerpt">En la rutina diaria, bibliotecarios y gestores de repositorios se enfrentan a un constante flujo de solicitudes de publicación en sus repositorios, lo cual puede complicar y ralentizar significativamente su trabajo. Por tanto, la eficaz gestión de contenido se convierte en una estrategia esencial para agilizar los procesos de publicación en colecciones digitales.</p>
 <p class="ablog-post-expand"><a class="reference internal" href="posts/workflow-dspace/"><em>Leer más ...</em></a></p>

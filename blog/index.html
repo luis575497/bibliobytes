@@ -221,15 +221,35 @@
       
         <div class="navbar-item navbar-persistent--container">
           
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Búsqueda" aria-label="Búsqueda" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-  </button>
-`);
-</script>
+<form class="bd-search d-flex align-items-center"
+      action="../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
         </div>
       
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="claro/oscuro" aria-label="claro/oscuro" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script></div>
       
         <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
     aria-label="Icon Links">
@@ -257,10 +277,19 @@ document.write(`
           <a href="https://orcid.org/0000-0001-7921-4228" title="ORCID" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-orcid fa-2xl"></i></span>
             <label class="sr-only">ORCID</label></a>
         </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://t.me/+YOGWLBReaGYwMzRh" title="Telegram" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-telegram fa-2xl"></i></span>
+            <label class="sr-only">Telegram</label></a>
+        </li>
 </ul></div>
-      
-        <div class="navbar-item">
-<div id="searchbox"></div></div>
       
     </div>
     
@@ -268,13 +297,22 @@ document.write(`
   
   
     <div class="navbar-persistent--mobile">
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Búsqueda" aria-label="Búsqueda" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-  </button>
-`);
-</script>
+<form class="bd-search d-flex align-items-center"
+      action="../search/"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
     </div>
   
 
@@ -340,6 +378,17 @@ document.write(`
     
       <div class="sidebar-header-items__end">
         
+          <div class="navbar-item">
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="claro/oscuro" aria-label="claro/oscuro" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script></div>
+        
           <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
     aria-label="Icon Links">
         <li class="nav-item">
@@ -366,10 +415,19 @@ document.write(`
           <a href="https://orcid.org/0000-0001-7921-4228" title="ORCID" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-orcid fa-2xl"></i></span>
             <label class="sr-only">ORCID</label></a>
         </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://t.me/+YOGWLBReaGYwMzRh" title="Telegram" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-telegram fa-2xl"></i></span>
+            <label class="sr-only">Telegram</label></a>
+        </li>
 </ul></div>
-        
-          <div class="navbar-item">
-<div id="searchbox"></div></div>
         
       </div>
     
@@ -411,7 +469,7 @@ document.write(`
   </li>
     
   <li>
-    <a href="category/sistema-de-gestion-bibliotecaria/">Sistema de Gestión Bibliotecaria (3)</a>
+    <a href="category/sistema-de-gestion-bibliotecaria/">Sistema de Gestión Bibliotecaria (4)</a>
   </li>
     
   <li>
@@ -459,7 +517,7 @@ document.write(`
     <a href="tag/dspace/">Dspace</a>
   </li>
     
-  <li class="ablog-cloud ablog-cloud-2">
+  <li class="ablog-cloud ablog-cloud-3">
     <a href="tag/catalogacion/">catalogación</a>
   </li>
     
@@ -504,7 +562,7 @@ document.write(`
 <ul>
    
   <li>
-    <a href="2023/">2023 (8)</a>
+    <a href="2023/">2023 (9)</a>
   </li>
    
 </ul>
@@ -569,6 +627,49 @@ document.write(`
 
   <div class="section ablog-post">
     <h2 class="ablog-post-title">
+      <a href="../posts/invenio-ils/">Invenio ILS</a>
+    </h2>
+
+    <ul class="ablog-archive">
+      <li>
+         <i class="fa fa-calendar"></i> 31 octubre 2023 
+      </li>
+       
+<li id="author">
+  <span><i class="fa-fw fa fa-user"></i></span
+  >
+   
+  <a href="author/luis-enrique-lescano-borrego/">Luis Enrique Lescano Borrego</a>  
+</li>
+   
+<li id="category">
+  <span><i class="fa-fw fa fa-folder-open"></i></span
+  >
+   
+  <a href="category/sistema-de-gestion-bibliotecaria/">Sistema de Gestión Bibliotecaria</a>  
+</li>
+ 
+<li id="tags">
+  <span><i class="fa-fw fa fa-tags"></i> </span
+  >
+   
+  <a href="tag/software/">software</a>   
+  <a href="tag/open-source/">open source</a>   
+  <a href="tag/catalogacion/">catalogación</a>  
+</li>
+ 
+    </ul>
+    <div class="ablog-post-excerpt docutils container">
+<p>Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos …</p>
+</div>
+
+    <p class="ablog-post-expand"><a href="../posts/invenio-ils/"><em>Leer más ...</em></a></p>
+    <hr/>
+  </div>
+  
+
+  <div class="section ablog-post">
+    <h2 class="ablog-post-title">
       <a href="../posts/workflow-dspace/">Creación de flujos de trabajo efectivos en Dspace 7</a>
     </h2>
 
@@ -596,8 +697,8 @@ document.write(`
   >
    
   <a href="tag/trabajo/">trabajo</a>   
-  <a href="tag/repositorios/">repositorios</a>   
-  <a href="tag/dspace/">Dspace</a>  
+  <a href="tag/dspace/">Dspace</a>   
+  <a href="tag/repositorios/">repositorios</a>  
 </li>
  
     </ul>
@@ -687,9 +788,9 @@ document.write(`
   <span><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/catalogacion/">catalogación</a>   
+  <a href="tag/software/">software</a>   
   <a href="tag/open-source/">open source</a>   
-  <a href="tag/software/">software</a>  
+  <a href="tag/catalogacion/">catalogación</a>  
 </li>
  
     </ul>
@@ -730,9 +831,9 @@ document.write(`
   <span><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/open-source/">open source</a>   
   <a href="tag/software/">software</a>   
-  <a href="tag/repositorio/">repositorio</a>  
+  <a href="tag/repositorio/">repositorio</a>   
+  <a href="tag/open-source/">open source</a>  
 </li>
  
     </ul>
@@ -773,9 +874,9 @@ document.write(`
   <span><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/reservas/">reservas</a>   
+  <a href="tag/software/">software</a>   
   <a href="tag/open-source/">open source</a>   
-  <a href="tag/software/">software</a>  
+  <a href="tag/reservas/">reservas</a>  
 </li>
  
     </ul>
@@ -816,9 +917,9 @@ document.write(`
   <span><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/open-source/">open source</a>   
   <a href="tag/software/">software</a>   
-  <a href="tag/repositorio/">repositorio</a>  
+  <a href="tag/repositorio/">repositorio</a>   
+  <a href="tag/open-source/">open source</a>  
 </li>
  
     </ul>
@@ -859,9 +960,9 @@ document.write(`
   <span><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/catalogacion/">catalogación</a>   
+  <a href="tag/software/">software</a>   
   <a href="tag/open-source/">open source</a>   
-  <a href="tag/software/">software</a>  
+  <a href="tag/catalogacion/">catalogación</a>  
 </li>
  
     </ul>
@@ -902,9 +1003,9 @@ document.write(`
   <span><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/catalogacion/">catalogación</a>   
+  <a href="tag/software/">software</a>   
   <a href="tag/open-source/">open source</a>   
-  <a href="tag/software/">software</a>  
+  <a href="tag/catalogacion/">catalogación</a>  
 </li>
  
     </ul>
