@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-11-01T17:28:17.543455+00:00</updated>
+  <updated>2023-11-01T21:10:13.879885+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -167,5 +167,23 @@
     <category term="opensource" label="open source"/>
     <category term="software" label="software"/>
     <published>2023-10-31T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/fototecas-ia/</id>
+    <title>Fototecas del Siglo XXI: descripción de fotos con IA</title>
+    <updated>2023-11-01T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;En la era digital, las fototecas se erigen como guardianas de momentos capturados en el tiempo, desde retratos históricos hasta instantáneas contemporáneas. El proceso de descripción y catalogación de estas imágenes ha sido históricamente laborioso, demandando tiempo y extensas investigaciones.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/fototecas-ia/" rel="alternate"/>
+    <summary>En la era digital, las fototecas se erigen como guardianas de momentos capturados en el tiempo, desde retratos históricos hasta instantáneas contemporáneas. El proceso de descripción y catalogación de estas imágenes ha sido históricamente laborioso, demandando tiempo y extensas investigaciones.</summary>
+    <category term="catalogación" label="catalogación"/>
+    <category term="fototecas" label="fototecas"/>
+    <category term="inteligenciaartificial" label="inteligencia artificial"/>
+    <published>2023-11-01T00:00:00-05:00</published>
   </entry>
 </feed>
