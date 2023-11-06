@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-11-01T21:18:34.054026+00:00</updated>
+  <updated>2023-11-06T21:49:06.597022+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -185,5 +185,23 @@
     <category term="fototecas" label="fototecas"/>
     <category term="inteligenciaartificial" label="inteligencia artificial"/>
     <published>2023-11-01T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/placas-digitales-biblitoecas/</id>
+    <title>Insignias Digitales en la Alfabetización Informacional</title>
+    <updated>2023-11-06T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;En la era digital, el aprendizaje ha experimentado una transformación profunda y, en este contexto, las bibliotecas se ven desafiadas a estar a la altura de esta revolución educativa. Entre las innovaciones más emocionantes para impulsar la alfabetización informacional destacan las &lt;em&gt;«Placas Digitales»&lt;/em&gt; o &lt;em&gt;«Badges»&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/placas-digitales-biblitoecas/" rel="alternate"/>
+    <summary>En la era digital, el aprendizaje ha experimentado una transformación profunda y, en este contexto, las bibliotecas se ven desafiadas a estar a la altura de esta revolución educativa. Entre las innovaciones más emocionantes para impulsar la alfabetización informacional destacan las «Placas Digitales» o «Badges».</summary>
+    <category term="alfabetizacióninformacional" label="alfabetización informacional"/>
+    <category term="badges" label="badges"/>
+    <category term="placasdigitales" label="placas digitales"/>
+    <published>2023-11-06T00:00:00-05:00</published>
   </entry>
 </feed>
