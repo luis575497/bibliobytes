@@ -40,7 +40,7 @@ OPALS (Sistema de Biblioteca de Código Abierto) es un software de gestión de b
 ✨ Caracterísitcas
 ======================
 
-Algunas características y funcionalidades clave de Evergreen ILS incluyen:
+Algunas características y funcionalidades clave de OPALS incluyen:
 
 #. **OPAC:** Con características como la exploración virtual de estantes, búsqueda facetada, y la exhibición de portadas de libros junto con calificaciones y reseñas de lectores, el OPAC de OPALS proporciona a los usuarios una herramienta intuitiva y visualmente atractiva para descubrir y acceder a los recursos de aprendizaje y lectura de la biblioteca de manera eficiente y en cualquier momento. 
 #. **Gestión de inventarios**: El programa de inventario es una herramienta eficaz que compara cada artículo escaneado con los registros MARC en su catálogo y el estado de circulación para identificar posibles discrepancias. Clasifica los elementos en condiciones específicas, como perdidos, dañados pero ubicados en el estante, prestados pero ubicados en el estante, sin número de llamada, mal ubicados/fuera de rango e inválidos. El módulo de inventario facilita la aplicación eficiente de correcciones a todos los elementos de una lista simultáneamente, una vez que se ha verificado la precisión de la lista. Este proceso asegura la integridad de la colección de la biblioteca, manteniéndola organizada y accesible para los usuarios.
