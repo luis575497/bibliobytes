@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-11-06T21:49:06.597022+00:00</updated>
+  <updated>2023-11-09T22:43:19.413669+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -203,5 +203,23 @@
     <category term="badges" label="badges"/>
     <category term="placasdigitales" label="placas digitales"/>
     <published>2023-11-06T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/opals/</id>
+    <title>OPALS</title>
+    <updated>2023-11-09T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;OPALS es un software de gestión de bibliotecas de código abierto que ofrece una solución integral para la administración de bibliotecas y recursos. Este sistema se ha diseñado para bibliotecas de todo tipo, desde escuelas y universidades hasta bibliotecas públicas y especializadas…&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/opals/" rel="alternate"/>
+    <summary>OPALS es un software de gestión de bibliotecas de código abierto que ofrece una solución integral para la administración de bibliotecas y recursos. Este sistema se ha diseñado para bibliotecas de todo tipo, desde escuelas y universidades hasta bibliotecas públicas y especializadas…</summary>
+    <category term="catalogación" label="catalogación"/>
+    <category term="opensource" label="open source"/>
+    <category term="software" label="software"/>
+    <published>2023-11-09T00:00:00-05:00</published>
   </entry>
 </feed>
