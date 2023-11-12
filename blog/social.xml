@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-11-09T22:57:26.585239+00:00</updated>
+  <updated>2023-11-12T22:38:23.154899+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/social.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -13,7 +13,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Koha #opensource #software #catalogación</content>
+    <content type="html">Koha #software #catalogación #opensource</content>
     <link href="https://luis575497.github.io/posts/koha/" rel="alternate"/>
     <summary>Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos …</summary>
     <category term="catalogación" label="catalogación"/>
@@ -28,7 +28,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Evergreen #opensource #software #catalogación</content>
+    <content type="html">Evergreen #software #catalogación #opensource</content>
     <link href="https://luis575497.github.io/posts/evergreen/" rel="alternate"/>
     <summary>Evergreen ILS (Integrated Library System) es un sistema integrado de gestión de bibliotecas que ha sido desarrollado específicamente para satisfacer las necesidades de bibliotecas y centros de información…</summary>
     <category term="catalogación" label="catalogación"/>
@@ -43,7 +43,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Omeka-S #opensource #software #repositorio</content>
+    <content type="html">Omeka-S #software #repositorio #opensource</content>
     <link href="https://luis575497.github.io/posts/omekas/" rel="alternate"/>
     <summary>Omeka S (Semantic) es un sistema de gestión de contenidos de software libre diseñado para satisfacer las necesidades de diversas instituciones culturales, tales como bibliotecas, archivos, museos y universidades, permitiéndoles desarrollar una amplia gama de proyectos digitales…</summary>
     <category term="opensource" label="open source"/>
@@ -58,7 +58,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">LibreBooking #opensource #software #reservas</content>
+    <content type="html">LibreBooking #software #opensource #reservas</content>
     <link href="https://luis575497.github.io/posts/librebooking/" rel="alternate"/>
     <summary>LibreBooking es un software de código abierto (open source) que se utiliza para gestionar y reservar recursos compartidos en entornos empresariales y organizacionales.</summary>
     <category term="opensource" label="open source"/>
@@ -73,7 +73,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">DSpace #opensource #software #repositorio</content>
+    <content type="html">DSpace #software #repositorio #opensource</content>
     <link href="https://luis575497.github.io/posts/dspace/" rel="alternate"/>
     <summary>DSpace es un sistema de gestión de repositorios de código abierto diseñado para ayudar a las instituciones, como universidades y bibliotecas, a crear, mantener y gestionar repositorios digitales de contenido académico, científico, cultural y otros tipos de información. DSpace proporciona una plataforma para almacenar, organizar, preservar y proporcionar …</summary>
     <category term="opensource" label="open source"/>
@@ -88,7 +88,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">PMB #opensource #software #catalogación</content>
+    <content type="html">PMB #software #catalogación #opensource</content>
     <link href="https://luis575497.github.io/posts/pmb/" rel="alternate"/>
     <summary>PMB, abreviatura de PhpMyBibli, es un sistema de gestión de bibliotecas (ILS, por sus siglas en inglés) que se utiliza para administrar y organizar bibliotecas y sus recursos de manera eficiente. Los sistemas ILS, como PMB, son herramientas esenciales para bibliotecas de todo tipo …</summary>
     <category term="catalogación" label="catalogación"/>
@@ -103,7 +103,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Actualización a Dspace 7 #dsapce #migración #repositorio</content>
+    <content type="html">Actualización a Dspace 7 #migración #dsapce #repositorio</content>
     <link href="https://luis575497.github.io/posts/dspace7-migrations/" rel="alternate"/>
     <summary>La migración o actualización a DSpace 7 es un proceso que requiere una planificación y ejecución cuidadosa. Cada repositorio es único por lo que tiene que examinar cuidadosamente su entorno y evaluar sus capacidades para realizar este proceso de migración o actualización. A continuación, se detallo los pasos clave que considero se debes seguir en las fases en este proceso:</summary>
     <category term="dsapce" label="dsapce"/>
@@ -118,7 +118,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Creación de flujos de trabajo efectivos en Dspace 7 #Dspace #repositorios #trabajo</content>
+    <content type="html">Creación de flujos de trabajo efectivos en Dspace 7 #trabajo #repositorios #Dspace</content>
     <link href="https://luis575497.github.io/posts/workflow-dspace/" rel="alternate"/>
     <summary>En la rutina diaria, bibliotecarios y gestores de repositorios se enfrentan a un constante flujo de solicitudes de publicación en sus repositorios, lo cual puede complicar y ralentizar significativamente su trabajo. Por tanto, la eficaz gestión de contenido se convierte en una estrategia esencial para agilizar los procesos de publicación en colecciones digitales.</summary>
     <category term="Dspace" label="Dspace"/>
@@ -133,7 +133,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Invenio ILS #opensource #software #catalogación</content>
+    <content type="html">Invenio ILS #software #catalogación #opensource</content>
     <link href="https://luis575497.github.io/posts/invenio-ils/" rel="alternate"/>
     <summary>Invenio ILS es un sistema de gestión de bibliotecas de código abierto diseñado para optimizar y simplificar la administración de recursos bibliográficos, así como facilitar el acceso y la búsqueda de información en entornos bibliotecarios y de gestión de colecciones.</summary>
     <category term="catalogación" label="catalogación"/>
@@ -148,7 +148,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">Fototecas del Siglo XXI: descripción de fotos con IA #inteligenciaartificial #fototecas #catalogación</content>
+    <content type="html">Fototecas del Siglo XXI: descripción de fotos con IA #inteligenciaartificial #catalogación #fototecas</content>
     <link href="https://luis575497.github.io/posts/fototecas-ia/" rel="alternate"/>
     <summary>En la era digital, las fototecas se erigen como guardianas de momentos capturados en el tiempo, desde retratos históricos hasta instantáneas contemporáneas. El proceso de descripción y catalogación de estas imágenes ha sido históricamente laborioso, demandando tiempo y extensas investigaciones.</summary>
     <category term="catalogación" label="catalogación"/>
@@ -178,7 +178,7 @@
     <author>
       <name>Luis Enrique Lescano Borrego</name>
     </author>
-    <content type="html">OPALS #opensource #software #catalogación</content>
+    <content type="html">OPALS #software #catalogación #opensource</content>
     <link href="https://luis575497.github.io/posts/opals/" rel="alternate"/>
     <summary>OPALS es un software de gestión de bibliotecas de código abierto que ofrece una solución integral para la administración de bibliotecas y recursos. Este sistema se ha diseñado para bibliotecas de todo tipo, desde escuelas y universidades hasta bibliotecas públicas y especializadas…</summary>
     <category term="catalogación" label="catalogación"/>
