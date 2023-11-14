@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-11-12T22:38:23.072357+00:00</updated>
+  <updated>2023-11-14T11:41:23.681615+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -221,5 +221,23 @@
     <category term="opensource" label="open source"/>
     <category term="software" label="software"/>
     <published>2023-11-09T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/reddit-biblioteca/</id>
+    <title>Reddit en Bibliotecas: una herramienta diferente 📚🌐</title>
+    <updated>2023-11-12T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;En el cambiante paisaje de las bibliotecas modernas, la integración de herramientas digitales es esencial para mantenerse relevantes. Reddit, una plataforma conocida por su diversidad de comunidades (&lt;em&gt;subreddits&lt;/em&gt;), se presenta como una herramienta bibliotecaria valiosa.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/reddit-biblioteca/" rel="alternate"/>
+    <summary>En el cambiante paisaje de las bibliotecas modernas, la integración de herramientas digitales es esencial para mantenerse relevantes. Reddit, una plataforma conocida por su diversidad de comunidades (subreddits), se presenta como una herramienta bibliotecaria valiosa.</summary>
+    <category term="comunidad" label="comunidad"/>
+    <category term="reddit" label="reddit"/>
+    <category term="redessociales" label="redes sociales"/>
+    <published>2023-11-12T00:00:00-05:00</published>
   </entry>
 </feed>
