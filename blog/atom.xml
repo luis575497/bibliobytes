@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-11-14T11:41:23.681615+00:00</updated>
+  <updated>2023-11-17T11:09:05.663727+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -239,5 +239,23 @@
     <category term="reddit" label="reddit"/>
     <category term="redessociales" label="redes sociales"/>
     <published>2023-11-12T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/iniciar-en-bibliotecas/</id>
+    <title>📚 Iniciación en Bibliotecas: Parte 1</title>
+    <updated>2023-11-15T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Explorar el mundo de las bibliotecas es un viaje fascinante y diverso. En muchos lugares, la necesidad de personal especializado ha llevado a la incorporación de profesionales de diversas disciplinas, desde docentes y historiadores hasta periodistas y comunicadores sociales, en roles bibliotecarios.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/iniciar-en-bibliotecas/" rel="alternate"/>
+    <summary>Explorar el mundo de las bibliotecas es un viaje fascinante y diverso. En muchos lugares, la necesidad de personal especializado ha llevado a la incorporación de profesionales de diversas disciplinas, desde docentes y historiadores hasta periodistas y comunicadores sociales, en roles bibliotecarios.</summary>
+    <category term="bibliotecas" label="bibliotecas"/>
+    <category term="bibliotecología" label="bibliotecología"/>
+    <category term="catalogación" label="catalogación"/>
+    <published>2023-11-15T00:00:00-05:00</published>
   </entry>
 </feed>
