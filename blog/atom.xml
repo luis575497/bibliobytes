@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-11-17T11:09:05.663727+00:00</updated>
+  <updated>2023-11-24T18:29:27.825472+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -257,5 +257,24 @@
     <category term="bibliotecología" label="bibliotecología"/>
     <category term="catalogación" label="catalogación"/>
     <published>2023-11-15T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/dspace-cris/</id>
+    <title>DSpace CRIS</title>
+    <updated>2023-11-24T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;DSpace-CRIS representa una extensión evolutiva de DSpace, un sistema de repositorio de código abierto que encuentra su principal aplicación en el ámbito académico y de investigación. Este sistema se dedica a almacenar, gestionar y brindar acceso a una amplia gama de recursos digitales, tales como artículos científicos …&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/dspace-cris/" rel="alternate"/>
+    <summary>DSpace-CRIS representa una extensión evolutiva de DSpace, un sistema de repositorio de código abierto que encuentra su principal aplicación en el ámbito académico y de investigación. Este sistema se dedica a almacenar, gestionar y brindar acceso a una amplia gama de recursos digitales, tales como artículos científicos …</summary>
+    <category term="GestióndelaInvestigación" label="Gestión de la Investigación"/>
+    <category term="investigación" label="investigación"/>
+    <category term="opensource" label="open source"/>
+    <category term="software" label="software"/>
+    <published>2023-11-24T00:00:00-05:00</published>
   </entry>
 </feed>
