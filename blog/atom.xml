@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-11-24T18:29:27.825472+00:00</updated>
+  <updated>2023-11-27T14:49:18.596343+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -276,5 +276,24 @@
     <category term="opensource" label="open source"/>
     <category term="software" label="software"/>
     <published>2023-11-24T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/desafios-bases-digitales/</id>
+    <title>Bases Digitales en Universidades: Acceso y Estrategias</title>
+    <updated>2023-11-27T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;En el mundo contemporáneo, las bibliotecas universitarias son los pilares del conocimiento, proporcionando a estudiantes y académicos acceso a un vasto océano de información a través de sus bases digitales. Sin embargo, uno de los mayores obstáculos que enfrentan estas instituciones es la limitación del acceso a estas bases debido a los costos asociados…&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/desafios-bases-digitales/" rel="alternate"/>
+    <summary>En el mundo contemporáneo, las bibliotecas universitarias son los pilares del conocimiento, proporcionando a estudiantes y académicos acceso a un vasto océano de información a través de sus bases digitales. Sin embargo, uno de los mayores obstáculos que enfrentan estas instituciones es la limitación del acceso a estas bases debido a los costos asociados…</summary>
+    <category term=""/>
+    <category term="alfin" label="alfin"/>
+    <category term="basesdigitales" label="bases digitales"/>
+    <category term="bibliotecasuniversitarias" label="bibliotecas universitarias"/>
+    <published>2023-11-27T00:00:00-05:00</published>
   </entry>
 </feed>
