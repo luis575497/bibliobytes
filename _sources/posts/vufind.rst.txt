@@ -1,0 +1,103 @@
+.. post:: Dec 05, 2023
+   :tags: software, open source, descubridor
+   :category: Softwares variados
+   :author: Luis Enrique Lescano Borrego
+   :exclude:
+
+   VuFind es un sistema de descubrimiento diseñado y desarrollado específicamente para bibliotecas por bibliotecas. Sin embargo, su flexibilidad lo hace apto para crear interfaces de búsqueda para distintos tipos de contenido, extendiéndose más allá del entorno de la biblioteca. Su objetivo principal es permitir a los usuarios buscar y explorar todos sus recursos a través de una interfaz consistente y fácil de usar.
+
+.. meta:: 
+   :description: VuFind es un sistema de descubrimiento versátil y flexible diseñado para bibliotecas que permite la búsqueda y exploración de recursos a través de una interfaz fácil de usar. Conoce sus características clave, desde la búsqueda facetada hasta la compatibilidad con Zotero, y descubre sus ventajas y desafíos. Pruébalo en los servidores de demostración proporcionados por VuFind.
+   :keywords: VuFind, sistema de descubrimiento, software, código abierto, bibliotecas, búsqueda facetada, AJAX querying, sugerencias de recursos, listas organizadas, biografías de autores, URL persistentes, compatibilidad con Zotero, internacionalización, acceso a datos, OAI, OpenSearch, Solr, desventajas, curva de aprendizaje, personalización, requerimientos de hardware, conferencias VuFind, soporte VuFind.
+
+**********
+VuFind
+**********
+:bdg-info-line:`software` :bdg-info-line:`open source` :bdg-info-line:`descubrimiento`
+
+.. admonition:: VuFind
+    :class: sidebar tip
+
+    .. image:: ../_static/images/vufind.png
+       :align: center
+       :height: 200
+       :width: 200
+      
+    *Imagen del sitio oficial*
+
+VuFind es un sistema de descubrimiento diseñado y desarrollado específicamente para bibliotecas por bibliotecas. Sin embargo, su flexibilidad lo hace apto para crear interfaces de búsqueda para distintos tipos de contenido, extendiéndose más allá del entorno de la biblioteca. Su objetivo principal es permitir a los usuarios buscar y explorar todos sus recursos a través de una interfaz consistente y fácil de usar.
+
+Entre los contenidos que puede abarcar se encuentran:
+
+#. Registros de catálogo
+#. Contenido de repositorios institucionales
+#. Artículos de revistas de acceso abierto
+#. Materiales digitalizados de la biblioteca
+#. Sitios web
+#. Artículos disponibles para préstamo interbibliotecario
+#. Contenido con licencia (cuando sea compatible con proveedores)
+#. Otras colecciones y recursos, solo añadiendo metadatos
+
+.. admonition:: Datos técnicos  
+   :class: important
+
+   | **Año de creación**: 2007. 
+   | **Lanzamientos**: Actualmente se encuentra en desarrollo la versión 10.0. 
+   | **Estándares**: OAI-PMH, COiNs
+   | **URL**: https://vufind.org/vufind/downloads.html
+ 
+======================
+✨ Caracterísitcas
+======================
+
+VuFind, como software de descubrimiento de bibliotecas de código abierto, presenta diversas características clave:
+
+#. **Búsqueda con resultados facetados:** Este sistema permite a los usuarios realizar búsquedas desde un cuadro de búsqueda básico y luego refinar los resultados utilizando facetas. Las facetas son categorías predefinidas (como autor, fecha, tipo de recurso, etc.) que permiten filtrar y limitar los resultados de búsqueda de manera más precisa.
+
+#. **Ajax Querying:** La página de resultados de búsqueda puede mostrar el estado en tiempo real de un registro específico consultando directamente el catálogo en ese momento a través de AJAX. Al hacerlo sin recargar toda la página, se evita que esta se ralentice, proporcionando información actualizada de manera ágil.
+
+#. **Sugerencias:** Muestra sugerencias de recursos similares al que se está viendo actualmente.
+
+#. **Listas organizadas:** Permite a los usuarios guardar recursos desde la página de resultados o la de visualización de registros en listas personalizables. Estas listas se pueden recuperar y gestionar en cualquier momento, simplificando la gestión de referencias y eliminando la necesidad de software de gestión de citas complicado.
+
+#. **Biografías:** Proporciona información contextual sobre los autores, permitiendo a los usuarios explorar otros libros escritos por el mismo autor.
+
+#. **URL persistentes:** Los usuarios pueden marcar consultas o registros para acceder permanentemente a páginas específicas.
+
+#. **Compatibilidad con Zotero:** Facilita a los usuarios guardar y organizar registros utilizando herramientas como Zotero, un gestor de referencias bibliográficas, simplificando el almacenamiento y etiquetado de recursos.
+
+#. **Internacionalización:** Ofrece traducciones en varios idiomas como Árabe, Portugués Brasileño, Chino, Holandés, Inglés, Francés, Alemán, Japonés, Español, etc. Y es personalizable para crear nuevas traducciones.
+
+#. **Acceso a datos:** Dispone de diversas API para interactuar con la búsqueda, datos y otras características, permitiendo la sindicación de datos con otras instituciones a través de OAI, búsqueda mediante OpenSearch y acceso completo a los datos indexados a través de Solr, el backend de búsqueda de VuFind®.
+
+.. admonition:: Prueba VuFind 
+   :class: tip
+
+   Si deseas probarlo puedes acceder a este servidor de prueba proporcinado por VuFind:
+
+   - **Avanzado:** https://vufind.org/advanced_demo/
+   - **Básico:** https://vufind.org/demo/
+
+======================
+📉 Desvenjatas
+======================
+
+* **Curva de aprendizaje:** La configuración y personalización de VuFind puede requerir cierto nivel de experiencia técnica. Para aquellos sin experiencia en el manejo de sistemas similares o sin habilidades técnicas, la curva de aprendizaje podría ser pronunciada.
+
+* **Personalización compleja:** A pesar de ofrecer una amplia gama de opciones de personalización, realizar modificaciones profundas o personalizaciones complejas dentro de VuFind puede ser un proceso laborioso. Esto puede requerir conocimientos avanzados de desarrollo o la asistencia de personal técnico especializado.
+
+* **Requerimientos de hardware:** Implementar y ejecutar VuFind puede requerir recursos significativos, tanto en términos de hardware como de recursos técnicos. Para instituciones con presupuestos limitados o equipos de TI pequeños, los requerimientos técnicos podrían representar un desafío.
+
+======================
+🔗 Enlaces útiles
+======================
+
+#. Aprenda más sobre VuFind visitando la documentación oficial: https://vufind.org/wiki/
+#. Libro gratuito sobre VuFind: https://github.com/vufind-org/learning-vufind-book
+#. Videotutoriales: https://vufind.org/wiki/videos
+
+======================
+📝 Notas
+======================
+.. note:: 
+    Se organizaan varias conferencias anuales sobre el desarrollo del software y cuenta con una extensa red de soporte (https://vufind.org/vufind/support.html)

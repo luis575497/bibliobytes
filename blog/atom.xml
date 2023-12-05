@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-11-28T21:33:38.719567+00:00</updated>
+  <updated>2023-12-05T16:49:33.623562+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -295,5 +295,23 @@
     <category term="basesdigitales" label="bases digitales"/>
     <category term="bibliotecasuniversitarias" label="bibliotecas universitarias"/>
     <published>2023-11-27T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/vufind/</id>
+    <title>VuFind</title>
+    <updated>2023-12-05T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;VuFind es un sistema de descubrimiento diseñado y desarrollado específicamente para bibliotecas por bibliotecas. Sin embargo, su flexibilidad lo hace apto para crear interfaces de búsqueda para distintos tipos de contenido, extendiéndose más allá del entorno de la biblioteca. Su objetivo principal es permitir a los usuarios buscar y explorar todos sus recursos a través de una interfaz consistente y fácil de usar.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/vufind/" rel="alternate"/>
+    <summary>VuFind es un sistema de descubrimiento diseñado y desarrollado específicamente para bibliotecas por bibliotecas. Sin embargo, su flexibilidad lo hace apto para crear interfaces de búsqueda para distintos tipos de contenido, extendiéndose más allá del entorno de la biblioteca. Su objetivo principal es permitir a los usuarios buscar y explorar todos sus recursos a través de una interfaz consistente y fácil de usar.</summary>
+    <category term="descubridor" label="descubridor"/>
+    <category term="opensource" label="open source"/>
+    <category term="software" label="software"/>
+    <published>2023-12-05T00:00:00-05:00</published>
   </entry>
 </feed>

@@ -8,11 +8,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-<meta content="Koha - Sistema de Gestión de Bibliotecas de Código Abierto | Catálogo en Línea y Préstamo de Materiales" name="description" />
-<meta content="Koha, gestión de bibliotecas, software de código abierto, catálogo en línea, préstamo de materiales, biblioteca open source" name="keywords" />
+<meta content="VuFind es un sistema de descubrimiento versátil y flexible diseñado para bibliotecas que permite la búsqueda y exploración de recursos a través de una interfaz fácil de usar. Conoce sus características clave, desde la búsqueda facetada hasta la compatibilidad con Zotero, y descubre sus ventajas y desafíos. Pruébalo en los servidores de demostración proporcionados por VuFind." name="description" />
+<meta content="VuFind, sistema de descubrimiento, software, código abierto, bibliotecas, búsqueda facetada, AJAX querying, sugerencias de recursos, listas organizadas, biografías de autores, URL persistentes, compatibilidad con Zotero, internacionalización, acceso a datos, OAI, OpenSearch, Solr, desventajas, curva de aprendizaje, personalización, requerimientos de hardware, conferencias VuFind, soporte VuFind." name="keywords" />
     <link href="../../_static/favicon-16x16.png" sizes="16x16" rel="icon" type="image/png">
     <link href="../../_static/favicon-32x32.png" sizes="32x32" rel="icon" type="image/png">
-    <title>Koha &#8212; documentación de BiblioBytes - 0.0.1</title>
+    <title>VuFind &#8212; documentación de BiblioBytes - 0.0.1</title>
   
   
   
@@ -61,8 +61,8 @@
                 gtag('js', new Date());
                 gtag('config', 'G-X0SW72PREQ');
             </script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'posts/koha';</script>
-    <link rel="canonical" href="https://luis575497.github.io/posts/koha.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'posts/vufind';</script>
+    <link rel="canonical" href="https://luis575497.github.io/posts/vufind.html" />
     <link rel="index" title="Índice" href="../../genindex/" />
     <link rel="search" title="Búsqueda" href="../../search/" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -469,7 +469,7 @@ document.write(`
         <div class="sidebar-primary-item">  
 <h2>
    <i class="fa fa-calendar"></i>
-  11 octubre 2023 
+  05 diciembre 2023 
 </h2>
 
 <ul>
@@ -485,7 +485,7 @@ document.write(`
   <span><i class="fa-fw fa fa-folder-open"></i></span
   >
    
-  <a href="../../blog/category/sistema-de-gestion-bibliotecaria/">Sistema de Gestión Bibliotecaria</a>  
+  <a href="../../blog/category/softwares-variados/">Softwares variados</a>  
 </li>
  
 <li id="tags">
@@ -493,7 +493,7 @@ document.write(`
   >
    
   <a href="../../blog/tag/software/">software</a>   
-  <a href="../../blog/tag/catalogacion/">catalogación</a>   
+  <a href="../../blog/tag/descubridor/">descubridor</a>   
   <a href="../../blog/tag/open-source/">open source</a>  
 </li>
  
@@ -517,7 +517,7 @@ document.write(`
   <i class="fa-fw fa fa-comments"></i>
   <a
     href="#disqus_thread"
-    data-disqus-identifier="/posts/koha/"
+    data-disqus-identifier="/posts/vufind/"
   >
     </a
   >
@@ -559,7 +559,7 @@ document.write(`
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page">Koha</li>
+    <li class="breadcrumb-item active" aria-current="page">VuFind</li>
   </ul>
 </nav>
 </div>
@@ -575,58 +575,79 @@ document.write(`
                 
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
-                   <section id="koha">
-<h1>Koha<a class="headerlink" href="#koha" title="Enlace permanente a este encabezado">#</a></h1>
-<p><span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">software</span> <span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">open source</span> <span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">catalogación</span></p>
+                   <section id="vufind">
+<h1>VuFind<a class="headerlink" href="#vufind" title="Enlace permanente a este encabezado">#</a></h1>
+<p><span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">software</span> <span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">open source</span> <span class="sd-sphinx-override sd-badge sd-outline-info sd-text-info">descubrimiento</span></p>
 <div class="sidebar tip admonition">
-<p class="admonition-title">Koha Logo</p>
-<a class="reference internal image-reference" href="../../_images/koha.png"><img alt="../../_images/koha.png" class="align-center" src="../../_images/koha.png" style="width: 200px; height: 200px;" /></a>
-<p><em>Koha es una palabra maorí que significa regalo o donación.</em></p>
+<p class="admonition-title">VuFind</p>
+<a class="reference internal image-reference" href="../../_images/vufind.png"><img alt="../../_images/vufind.png" class="align-center" src="../../_images/vufind.png" style="width: 200px; height: 200px;" /></a>
+<p><em>Imagen del sitio oficial</em></p>
 </div>
-<p>Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos relacionados con la gestión de una biblioteca.</p>
-<p>Las funciones principales de Koha incluyen el registro y catalogación de materiales bibliográficos, gestión de préstamos, generación de informes, automatización de procesos, administración de suscriptores, y facilitar el acceso a la información de la biblioteca para usuarios. Al ser de código abierto, se puede personalizar y adaptar según las necesidades específicas de cada biblioteca, lo que lo convierte en una herramienta flexible y escalable para diferentes entidades bibliotecarias.</p>
+<p>VuFind es un sistema de descubrimiento diseñado y desarrollado específicamente para bibliotecas por bibliotecas. Sin embargo, su flexibilidad lo hace apto para crear interfaces de búsqueda para distintos tipos de contenido, extendiéndose más allá del entorno de la biblioteca. Su objetivo principal es permitir a los usuarios buscar y explorar todos sus recursos a través de una interfaz consistente y fácil de usar.</p>
+<p>Entre los contenidos que puede abarcar se encuentran:</p>
+<ol class="arabic simple">
+<li><p>Registros de catálogo</p></li>
+<li><p>Contenido de repositorios institucionales</p></li>
+<li><p>Artículos de revistas de acceso abierto</p></li>
+<li><p>Materiales digitalizados de la biblioteca</p></li>
+<li><p>Sitios web</p></li>
+<li><p>Artículos disponibles para préstamo interbibliotecario</p></li>
+<li><p>Contenido con licencia (cuando sea compatible con proveedores)</p></li>
+<li><p>Otras colecciones y recursos, solo añadiendo metadatos</p></li>
+</ol>
 <div class="important admonition">
 <p class="admonition-title">Datos técnicos</p>
 <div class="line-block">
-<div class="line"><strong>Año de creación</strong>: 2000.</div>
-<div class="line"><strong>Lanzamientos</strong>: Versiones de mantenimiento mensuales y versiones de funciones semestrales.</div>
-<div class="line"><strong>OAI</strong>: Soporta el protocolo OAI-PMH</div>
-<div class="line"><strong>URL</strong>: <a class="reference external" href="https://koha-community.org/download-koha/">https://koha-community.org/download-koha/</a></div>
+<div class="line"><strong>Año de creación</strong>: 2007.</div>
+<div class="line"><strong>Lanzamientos</strong>: Actualmente se encuentra en desarrollo la versión 10.0.</div>
+<div class="line"><strong>Estándares</strong>: OAI-PMH, COiNs</div>
+<div class="line"><strong>URL</strong>: <a class="reference external" href="https://vufind.org/vufind/downloads.html">https://vufind.org/vufind/downloads.html</a></div>
 </div>
 </div>
 <section id="caracterisitcas">
 <h2>✨ Caracterísitcas<a class="headerlink" href="#caracterisitcas" title="Enlace permanente a este encabezado">#</a></h2>
-<p>Koha, como software de gestión de bibliotecas de código abierto, presenta diversas características clave:</p>
+<p>VuFind, como software de descubrimiento de bibliotecas de código abierto, presenta diversas características clave:</p>
 <ol class="arabic simple">
-<li><p><strong>Cumplimiento de estándares bibliotecarios</strong>: Koha adhiere a importantes estándares bibliotecarios, como MARC21, Z39.50, SIP2, SRU, UNIMARC, y otros, asegurando la interoperabilidad y compatibilidad con otras bibliotecas y sistemas.</p></li>
-<li><p><strong>Personalización del OPAC</strong>: Modificación de hojas de estilo CSS (Cascading Style Sheets) para ajustar la apariencia visual del OPAC. Esto incluye la personalización de colores, fuentes, tamaños de texto y diseños. Edición de plantillas HTML para cambiar la estructura y disposición de elementos en las páginas del OPAC, como la página de resultados de búsqueda, la página de detalles de un ítem, etc.</p></li>
-<li><p><strong>Reglas de circulación y préstamos</strong>: Define reglas detalladas para los préstamos y circulación de materiales, como periodos de préstamo, límites de préstamos, renovaciones, multas, políticas de acceso, entre otros. Estas reglas se pueden adaptar a políticas institucionales y de servicio.</p></li>
-<li><p><strong>Hojas de trabajo configurables</strong>: Permite la personalización de campos de catalogación y definir etiquetas y subcampos específicos según los tipos de materiales que maneja la biblioteca. Esta flexibilidad es fundamental para garantizar la adecuada catalogación de los recursos y facilitar su búsqueda y recuperación.</p></li>
+<li><p><strong>Búsqueda con resultados facetados:</strong> Este sistema permite a los usuarios realizar búsquedas desde un cuadro de búsqueda básico y luego refinar los resultados utilizando facetas. Las facetas son categorías predefinidas (como autor, fecha, tipo de recurso, etc.) que permiten filtrar y limitar los resultados de búsqueda de manera más precisa.</p></li>
+<li><p><strong>Ajax Querying:</strong> La página de resultados de búsqueda puede mostrar el estado en tiempo real de un registro específico consultando directamente el catálogo en ese momento a través de AJAX. Al hacerlo sin recargar toda la página, se evita que esta se ralentice, proporcionando información actualizada de manera ágil.</p></li>
+<li><p><strong>Sugerencias:</strong> Muestra sugerencias de recursos similares al que se está viendo actualmente.</p></li>
+<li><p><strong>Listas organizadas:</strong> Permite a los usuarios guardar recursos desde la página de resultados o la de visualización de registros en listas personalizables. Estas listas se pueden recuperar y gestionar en cualquier momento, simplificando la gestión de referencias y eliminando la necesidad de software de gestión de citas complicado.</p></li>
+<li><p><strong>Biografías:</strong> Proporciona información contextual sobre los autores, permitiendo a los usuarios explorar otros libros escritos por el mismo autor.</p></li>
+<li><p><strong>URL persistentes:</strong> Los usuarios pueden marcar consultas o registros para acceder permanentemente a páginas específicas.</p></li>
+<li><p><strong>Compatibilidad con Zotero:</strong> Facilita a los usuarios guardar y organizar registros utilizando herramientas como Zotero, un gestor de referencias bibliográficas, simplificando el almacenamiento y etiquetado de recursos.</p></li>
+<li><p><strong>Internacionalización:</strong> Ofrece traducciones en varios idiomas como Árabe, Portugués Brasileño, Chino, Holandés, Inglés, Francés, Alemán, Japonés, Español, etc. Y es personalizable para crear nuevas traducciones.</p></li>
+<li><p><strong>Acceso a datos:</strong> Dispone de diversas API para interactuar con la búsqueda, datos y otras características, permitiendo la sindicación de datos con otras instituciones a través de OAI, búsqueda mediante OpenSearch y acceso completo a los datos indexados a través de Solr, el backend de búsqueda de VuFind®.</p></li>
 </ol>
+<div class="tip admonition">
+<p class="admonition-title">Prueba VuFind</p>
+<p>Si deseas probarlo puedes acceder a este servidor de prueba proporcinado por VuFind:</p>
+<ul class="simple">
+<li><p><strong>Avanzado:</strong> <a class="reference external" href="https://vufind.org/advanced_demo/">https://vufind.org/advanced_demo/</a></p></li>
+<li><p><strong>Básico:</strong> <a class="reference external" href="https://vufind.org/demo/">https://vufind.org/demo/</a></p></li>
+</ul>
+</div>
 </section>
 <section id="desvenjatas">
 <h2>📉 Desvenjatas<a class="headerlink" href="#desvenjatas" title="Enlace permanente a este encabezado">#</a></h2>
-<ol class="arabic simple">
-<li><p><strong>Soporte y mantenimiento</strong>: Aunque existe una comunidad activa de usuarios y desarrolladores, algunos usuarios pueden enfrentar desafíos para obtener soporte técnico y mantenimiento adecuados, especialmente en comparación con sistemas comerciales que ofrecen asistencia dedicada y contratos de servicio. Además de tener que configurar en un inicio todas las tareas de mantenimiento en el servidor cóm indexación de la base de datos, etc.</p></li>
-<li><p><strong>Actualizaciones y compatibilidad</strong>: Las actualizaciones de software y la compatibilidad con nuevas versiones pueden requerir tiempo y esfuerzo considerables, especialmente si se han realizado personalizaciones extensas. La transición a nuevas versiones puede presentar desafíos de integración.</p></li>
-</ol>
+<ul class="simple">
+<li><p><strong>Curva de aprendizaje:</strong> La configuración y personalización de VuFind puede requerir cierto nivel de experiencia técnica. Para aquellos sin experiencia en el manejo de sistemas similares o sin habilidades técnicas, la curva de aprendizaje podría ser pronunciada.</p></li>
+<li><p><strong>Personalización compleja:</strong> A pesar de ofrecer una amplia gama de opciones de personalización, realizar modificaciones profundas o personalizaciones complejas dentro de VuFind puede ser un proceso laborioso. Esto puede requerir conocimientos avanzados de desarrollo o la asistencia de personal técnico especializado.</p></li>
+<li><p><strong>Requerimientos de hardware:</strong> Implementar y ejecutar VuFind puede requerir recursos significativos, tanto en términos de hardware como de recursos técnicos. Para instituciones con presupuestos limitados o equipos de TI pequeños, los requerimientos técnicos podrían representar un desafío.</p></li>
+</ul>
 </section>
 <section id="enlaces-utiles">
 <h2>🔗 Enlaces útiles<a class="headerlink" href="#enlaces-utiles" title="Enlace permanente a este encabezado">#</a></h2>
 <ol class="arabic simple">
-<li><p>Aprenda más sobre Koha visitando el sitio web oficial: <a class="reference external" href="http://koha-community.org">http://koha-community.org</a></p></li>
-<li><p>Listado de complementos actualizados para KOHA: <a class="gitlab reference external" href="https://gitlab.com/thekesolutions/plugins">thekesolutions/plugins</a></p></li>
+<li><p>Aprenda más sobre VuFind visitando la documentación oficial: <a class="reference external" href="https://vufind.org/wiki/">https://vufind.org/wiki/</a></p></li>
+<li><p>Libro gratuito sobre VuFind: <a class="github reference external" href="https://github.com/vufind-org/learning-vufind-book">vufind-org/learning-vufind-book</a></p></li>
+<li><p>Videotutoriales: <a class="reference external" href="https://vufind.org/wiki/videos">https://vufind.org/wiki/videos</a></p></li>
 </ol>
 </section>
 <section id="notas">
 <h2>📝 Notas<a class="headerlink" href="#notas" title="Enlace permanente a este encabezado">#</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
-<p>Para la personalización del OPAC he utilizado el complemento Galadriel OPAC Theme Plugin diponible en <a class="github reference external" href="https://github.com/bywatersolutions/koha-plugin-opac-theme-galadriel">bywatersolutions/koha-plugin-opac-theme-galadriel</a>. Es un complemento muy sencillo que permite arreglar el estilo del OPAC de manera sencilla y rápida.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Nota</p>
-<p>Se puede implementar las normas de catalogación RDA (Resource, Description, Access) para realizar la descripción bibliográfica.</p>
+<p>Se organizaan varias conferencias anuales sobre el desarrollo del software y cuenta con una extensa red de soporte (<a class="reference external" href="https://vufind.org/vufind/support.html">https://vufind.org/vufind/support.html</a>)</p>
 </div>
 </section>
 </section>
@@ -636,17 +657,14 @@ document.write(`
 
 <div class="section">
   <span style="float: left">
+     
+    <a href="../desafios-bases-digitales/">
+      <i class="fa fa-arrow-circle-left"></i> Bases Digitales en Universidades: Acceso y Estrategias
+    </a>
     
   </span>
   <span>&nbsp;</span>
   <span style="float: right">
-     
-    <a href="../evergreen/">
-      Evergreen <i
-        class="fa fa-arrow-circle-right"
-      ></i
-      >
-    </a>
     
   </span>
 </div>
@@ -656,9 +674,9 @@ document.write(`
     <div id="disqus_thread"></div>
     <script type="text/javascript">
       var disqus_shortname = "bibliobytes";
-      var disqus_identifier = "/posts/koha/";
-      var disqus_title = "Koha";
-      var disqus_url = "https://luis575497.github.io/posts/koha";
+      var disqus_identifier = "/posts/vufind/";
+      var disqus_title = "VuFind";
+      var disqus_url = "https://luis575497.github.io/posts/vufind";
 
       (function () {
         var dsq = document.createElement("script");
@@ -721,7 +739,7 @@ document.write(`
 
   <div class="sidebar-secondary-item">
   <div class="tocsection sourcelink">
-    <a href="../../_sources/posts/koha.rst.txt">
+    <a href="../../_sources/posts/vufind.rst.txt">
       <i class="fa-solid fa-file-lines"></i> Mostrar el código
     </a>
   </div>
