@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://luis575497.github.io/</id>
   <title>Blog</title>
-  <updated>2023-12-13T15:06:18.989756+00:00</updated>
+  <updated>2024-02-01T14:13:34.549214+00:00</updated>
   <link href="https://luis575497.github.io/"/>
   <link href="https://luis575497.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -331,5 +331,23 @@
     <category term="fototecas" label="fototecas"/>
     <category term="inteligenciaartificial" label="inteligencia artificial"/>
     <published>2023-12-13T00:00:00-05:00</published>
+  </entry>
+  <entry>
+    <id>https://luis575497.github.io/posts/slims/</id>
+    <title>SLiMS</title>
+    <updated>2023-12-15T00:00:00-05:00</updated>
+    <author>
+      <name>Luis Enrique Lescano Borrego</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos …&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://luis575497.github.io/posts/slims/" rel="alternate"/>
+    <summary>Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos …</summary>
+    <category term="catalogación" label="catalogación"/>
+    <category term="opensource" label="open source"/>
+    <category term="software" label="software"/>
+    <published>2023-12-15T00:00:00-05:00</published>
   </entry>
 </feed>

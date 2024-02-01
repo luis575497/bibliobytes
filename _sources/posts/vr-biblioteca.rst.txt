@@ -31,7 +31,7 @@ Hoy, con dispositivos más accesibles como **Oculus Rift S**, **HTC Vive** o **P
 -----------------------------------------
 Las bibliotecas, como guardianes del conocimiento, no se han quedado atrás. El Goethe Institut en Buenos Aires, por ejemplo, ofrece experiencias artísticas y culturales en 3D, atrayendo nuevo público y posicionándose como pioneros en el uso de VR.
 
-Universidades como `Georgetown <https://library.georgetown.edu/vr>`_ , `Western Michigan <https://wmich.edu/library/vr>`_ o `California <https://library.caltech.edu/tech/vr>`_ en `San Diego <>`_, proporcionan acceso a dispositivos VR y espacios para crear contenido en 3D. Incluso la `UNAM <https://www.tic.unam.mx/2019/05/31/realidad-virtual-para-el-desarrollo-bibliotecario/>`_ ha desarrollado aplicaciones para capacitar a bibliotecarios en entornos virtuales.
+Universidades como `Georgetown <https://library.georgetown.edu/vr>`_ , `Western Michigan <https://wmich.edu/library/vr>`_ o `California <https://library.caltech.edu/tech/vr>`_ en San Diego, proporcionan acceso a dispositivos VR y espacios para crear contenido en 3D. Incluso la `UNAM <https://www.tic.unam.mx/2019/05/31/realidad-virtual-para-el-desarrollo-bibliotecario/>`_ ha desarrollado aplicaciones para capacitar a bibliotecarios en entornos virtuales.
 
 Sin embargo, ¿es la realidad virtual accesible para todas las bibliotecas? La inversión inicial, alrededor de $600 a $2,000 por equipo, sigue siendo una barrera para la mayoría. Aunque existen opciones más asequibles, como las gafas que dependen de un celular, las que necesitan una computadora o las autónomas, su costo puede oscilar entre los $80 y $1,000 dólares.
 

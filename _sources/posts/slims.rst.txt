@@ -1,0 +1,88 @@
+.. post:: Dec 15, 2023
+   :tags: software, open source, catalogación
+   :category: Sistema de Gestión Bibliotecaria
+   :author: Luis Enrique Lescano Borrego
+   :exclude:
+
+   Koha es un sistema integrado de gestión de bibliotecas (SIGB) de código abierto utilizado para administrar bibliotecas y sus recursos. Permite gestionar catálogos, préstamos, adquisiciones, inventarios, y otros aspectos ...
+
+.. meta::
+   :description: Koha - Sistema de Gestión de Bibliotecas de Código Abierto | Catálogo en Línea y Préstamo de Materiales
+   :keywords: Koha, gestión de bibliotecas, software de código abierto, catálogo en línea, préstamo de materiales, biblioteca open source
+
+
+**********
+SLiMS
+**********
+:bdg-info-line:`software` :bdg-info-line:`open source` :bdg-info-line:`catalogación`
+
+.. admonition:: SLiMS Logo
+    :class: sidebar tip
+
+    .. image:: ../_static/images/slims.png
+       :align: center
+       :height: 200
+       :width: 200
+      
+    *SLiMS significa Senayan Library Management System*
+
+Senayan Library Management System (SLiMS) es un sistema de gestión de bibliotecas de código abierto. Proporciona una plataforma para automatizar y gestionar diversas funciones en una biblioteca, como la gestión de préstamos, el catálogo de libros, la administración de usuarios, la gestión de inventarios y otras tareas relacionadas con la biblioteca.
+
+SLiMS es una herramienta útil para bibliotecas de diferentes tamaños, permitiendo a los administradores de bibliotecas llevar un registro detallado de los libros, facilitar la búsqueda de materiales, gestionar las devoluciones y llevar un seguimiento de los préstamos, entre otras funcionalidades. Al ser de código abierto, SLiMS ofrece flexibilidad y la posibilidad de personalización según las necesidades específicas de una biblioteca en particular, y su comunidad activa de desarrolladores permite mejoras continuas y actualizaciones del sistema.
+
+SLiMS está creado en el lenguaje de programación PHP y solo necesita de un servidor Apache y la base de datos MySQK por lo que es muy sencilla su instalación, además de contar con una versión portable y una imagen en Docker. El sistema es multiplataforma por lo que puede ser ejecutado en Linux, Mac OS y Windows.
+
+.. admonition:: Datos técnicos  
+   :class: important
+
+   | **Año de creación**: 2006. 
+   | **Lanzamientos**: Actualmente se encuentra en la versión 9, llamada **Bulian**. 
+   | **OAI**: Soporta el protocolo OAI-PMH
+   | **URL**: https://slims.web.id/web/
+ 
+======================
+✨ Caracterísitcas
+======================
+
+Koha, como software de gestión de bibliotecas de código abierto, presenta diversas características clave:
+
+#. **Catálogo en Línea de Acceso Público (OPAC):** Permite acceso a la colección de la biblioteca con opciones de búsqueda simple y avanzada, y soporte para imágenes de portadas de libros.
+#. **Gestión de Contenidos Digitales:** Admite archivos digitales como PDF, DOC, RTF, XLS, PPT, video, audio, etc., adjuntándolos a cada registro bibliográfico.
+#. **Detalles del Registro:** Ofrece detalles del registro en formatos XML MODS y JSON-LD con schema.org para una descripción detallada del contenido.
+#. **Interfaz gráfica:** Ofrece soporte para formatos como RSS para el catálogo en línea y OAI-PMH en formato Dublin Core para recolección de metadatos.
+#. **Gestión Integral del Sistema:** Incluye módulos para configuración global del sistema, administración de usuarios, generador de códigos de barras, copias de seguridad de la base de datos y una interfaz de usuario adaptable y receptiva.
+
+.. admonition:: Prueba SLiMS 
+   :class: tip
+
+   Si deseas probarlo puedes acceder a este servidor de prueba proporcinado por SliMS:
+
+   - **Versión 9.6**: https://demo.slims.asia/
+
+======================
+📉 Desvenjatas
+======================
+
+#. **Soporte y mantenimiento**: Aunque existe una comunidad activa de usuarios y desarrolladores, algunos usuarios pueden enfrentar desafíos para obtener soporte técnico y mantenimiento adecuados, especialmente en comparación con sistemas comerciales que ofrecen asistencia dedicada y contratos de servicio. Además de tener que configurar en un inicio todas las tareas de mantenimiento en el servidor cóm indexación de la base de datos, etc. 
+#. **Actualizaciones y compatibilidad**: Las actualizaciones de software y la compatibilidad con nuevas versiones pueden requerir tiempo y esfuerzo considerables, especialmente si se han realizado personalizaciones extensas. La transición a nuevas versiones puede presentar desafíos de integración.
+
+.. admonition:: Errores en la instalación
+    :class: danger
+        
+    En la versión 9.6, cuando se usa la versión ejecutable o cuando se instala con el instalador en el servidor no funciona el usuario y contraseña creados, por lo que se tiene que editar en el administrados de bases de datos la contraseña.
+
+======================
+🔗 Enlaces útiles
+======================
+
+#. Aprenda más sobre SLiMS visitando da documentación oficial: https://slims.web.id/web/pages/docs/
+#. Si tiene alguna duda sobre el funcionamiento de SLiMS visite su forum comunitario: https://slims.web.id/forum/
+
+======================
+📝 Notas
+======================
+.. note:: 
+   Para la personalización del OPAC he utilizado el complemento Galadriel OPAC Theme Plugin diponible en https://github.com/bywatersolutions/koha-plugin-opac-theme-galadriel. Es un complemento muy sencillo que permite arreglar el estilo del OPAC de manera sencilla y rápida.
+
+.. note:: 
+   Se puede implementar las normas de catalogación RDA (Resource, Description, Access) para realizar la descripción bibliográfica.
